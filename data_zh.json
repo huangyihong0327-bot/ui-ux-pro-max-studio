@@ -1,0 +1,5982 @@
+﻿{
+  "styles": [
+    {
+      "no": 1,
+      "id": "bento-grid",
+      "name": "🍱 現代幾何便當盒 (Modern Bento Box)",
+      "tag": "便當盒",
+      "mode": "light",
+      "typoNo": 3,
+      "layoutTpl": "bento",
+      "desc": "Apple / Linear 引領的非對稱幾何網格，以模組化卡片區隔主次焦點，同心圓角與 1px 細邊框。",
+      "colors": {
+        "primary": "#0f172a",
+        "secondary": "#3b82f6",
+        "accent": "#10b981",
+        "bg": "#f8fafc",
+        "card": "#ffffff",
+        "fg": "#0f172a"
+      },
+      "physics": {
+        "r": 16,
+        "b": 1,
+        "s": 110,
+        "a": "card"
+      }
+    },
+    {
+      "no": 2,
+      "id": "editorial-magazine",
+      "name": "📰 當代建築雜誌風 (Architectural Editorial)",
+      "tag": "雜誌風",
+      "mode": "light",
+      "typoNo": 1,
+      "layoutTpl": "editorial",
+      "desc": "巨型襯線大字對比、大面積建築負空間留白、非對稱圖文重疊與編者引言雙欄，摒棄多餘卡片包裝。",
+      "colors": {
+        "primary": "#1c1917",
+        "secondary": "#57534e",
+        "accent": "#b45309",
+        "bg": "#fbfaf8",
+        "card": "#ffffff",
+        "fg": "#1c1917"
+      },
+      "physics": {
+        "r": 4,
+        "b": 1,
+        "s": 75,
+        "a": "swiss"
+      }
+    },
+    {
+      "no": 3,
+      "id": "saas-darkglow",
+      "name": "🚀 漸層微光 SaaS 發布 (Dark Mesh Glow SaaS)",
+      "tag": "SaaS",
+      "mode": "dark",
+      "typoNo": 3,
+      "layoutTpl": "saas",
+      "desc": "微光發布膠囊、深黑底搭配柔焦漸層發光球（Mesh Glow）、懸浮應用程式玻璃視窗與合作夥伴 Logo 列。",
+      "colors": {
+        "primary": "#3b82f6",
+        "secondary": "#8b5cf6",
+        "accent": "#06b6d4",
+        "bg": "#030712",
+        "card": "#111827",
+        "fg": "#f9fafb"
+      },
+      "physics": {
+        "r": 14,
+        "b": 1,
+        "s": 140,
+        "a": "glass"
+      }
+    },
+    {
+      "no": 4,
+      "id": "swiss-international",
+      "name": "🏛️ 瑞士國際主義網格 (Swiss International Typo)",
+      "tag": "極簡",
+      "mode": "light",
+      "typoNo": 5,
+      "layoutTpl": "editorial",
+      "desc": "以數學網格為骨架，黑白紅高對比，精準無襯線排版與結構線條，專注純粹資訊層級傳遞。",
+      "colors": {
+        "primary": "#e11d48",
+        "secondary": "#111827",
+        "accent": "#4b5563",
+        "bg": "#fafaf9",
+        "card": "#ffffff",
+        "fg": "#09090b"
+      },
+      "physics": {
+        "r": 0,
+        "b": 2,
+        "s": 60,
+        "a": "swiss"
+      }
+    },
+    {
+      "no": 5,
+      "id": "luxury-lookbook",
+      "name": "🛍️ 當代奢華選品 Lookbook (Minimalist Luxury)",
+      "tag": "奢華",
+      "mode": "light",
+      "typoNo": 4,
+      "layoutTpl": "editorial",
+      "desc": "全版無邊界精緻大圖、極細 1px 價格標籤、非對稱畫冊排版與懸浮底欄，散發當代精品優雅氣質。",
+      "colors": {
+        "primary": "#18181b",
+        "secondary": "#71717a",
+        "accent": "#d97706",
+        "bg": "#f4f4f5",
+        "card": "#ffffff",
+        "fg": "#18181b"
+      },
+      "physics": {
+        "r": 6,
+        "b": 1,
+        "s": 85,
+        "a": "card"
+      }
+    },
+    {
+      "no": 6,
+      "id": "neubrutalism-pop",
+      "name": "⚡ 新粗野撞色潮流 (Neubrutalism Pop)",
+      "tag": "粗野",
+      "mode": "light",
+      "typoNo": 3,
+      "layoutTpl": "bento",
+      "desc": "純黑粗邊框 (2-3px)、實心硬陰影 (Hard Shadow)、飽和亮黃/粉紫高彩度對比，洋溢先鋒街頭感。",
+      "colors": {
+        "primary": "#ff5722",
+        "secondary": "#7c3aed",
+        "accent": "#10b981",
+        "bg": "#fffdf5",
+        "card": "#fef08a",
+        "fg": "#09090b"
+      },
+      "physics": {
+        "r": 6,
+        "b": 3,
+        "s": 150,
+        "a": "brutal"
+      }
+    },
+    {
+      "no": 7,
+      "id": "glassmorphism-aurora",
+      "name": "🫧 極光毛玻璃 (Glassmorphism Aurora)",
+      "tag": "毛玻璃",
+      "mode": "dark",
+      "typoNo": 3,
+      "layoutTpl": "saas",
+      "desc": "多層次磨砂背景濾鏡 (Backdrop Blur 16px)、透光 1px 亮邊框、夢幻紫綠光球交織，營造次世代空間層次。",
+      "colors": {
+        "primary": "#00f0ff",
+        "secondary": "#a855f7",
+        "accent": "#f43f5e",
+        "bg": "#090d16",
+        "card": "#131b2e",
+        "fg": "#f1f5f9"
+      },
+      "physics": {
+        "r": 20,
+        "b": 1,
+        "s": 130,
+        "a": "glass"
+      }
+    },
+    {
+      "no": 8,
+      "id": "minimal-spatial",
+      "name": "📐 極簡空間建築學 (Minimal Spatial Void)",
+      "tag": "極簡",
+      "mode": "light",
+      "typoNo": 1,
+      "layoutTpl": "editorial",
+      "desc": "極大比例的負空間留白，精密的 1px 結構座標標籤，讓圖說與光影成為主角，建築師最愛美學。",
+      "colors": {
+        "primary": "#27272a",
+        "secondary": "#52525b",
+        "accent": "#0284c7",
+        "bg": "#fafafa",
+        "card": "#ffffff",
+        "fg": "#18181b"
+      },
+      "physics": {
+        "r": 2,
+        "b": 1,
+        "s": 65,
+        "a": "swiss"
+      }
+    },
+    {
+      "no": 9,
+      "id": "claymorphism-candy",
+      "name": "🧸 3D 糖果黏土 (Claymorphism Candy)",
+      "tag": "3D黏土",
+      "mode": "light",
+      "typoNo": 2,
+      "layoutTpl": "bento",
+      "desc": "內凹與外凸雙層澎潤柔和光影，宛如真實黏土浮雕，糖果繽紛色調，親和力與趣味性兼備。",
+      "colors": {
+        "primary": "#6366f1",
+        "secondary": "#ec4899",
+        "accent": "#f59e0b",
+        "bg": "#eef2ff",
+        "card": "#ffffff",
+        "fg": "#1e1b4b"
+      },
+      "physics": {
+        "r": 24,
+        "b": 0,
+        "s": 135,
+        "a": "clay"
+      }
+    },
+    {
+      "no": 10,
+      "id": "cyberpunk-hud",
+      "name": "🛸 賽博工控 HUD 終端 (Cyberpunk Telemetry HUD)",
+      "tag": "賽博",
+      "mode": "oled",
+      "typoNo": 6,
+      "layoutTpl": "bento",
+      "desc": "純黑 OLED 襯底搭配霓虹青 (Cyan) 與洋紅發光指示燈，等寬遙測代碼，科技感拉滿的戰術中樞。",
+      "colors": {
+        "primary": "#00f0ff",
+        "secondary": "#7000ff",
+        "accent": "#ff0055",
+        "bg": "#04060c",
+        "card": "#0c1222",
+        "fg": "#e2f8ff"
+      },
+      "physics": {
+        "r": 4,
+        "b": 2,
+        "s": 160,
+        "a": "cyber"
+      }
+    },
+    {
+      "no": 11,
+      "id": "wabi-sabi-zen",
+      "name": "🌿 日式侘寂禪意極簡 (Wabi-Sabi Zen)",
+      "tag": "極簡",
+      "mode": "light",
+      "typoNo": 4,
+      "layoutTpl": "editorial",
+      "desc": "質樸米灰、竹炭黑、溫潤茶褐色，大片留白營造寧靜呼吸節奏，適合茶道、身心靈與頂級水療。",
+      "colors": {
+        "primary": "#44403c",
+        "secondary": "#78716c",
+        "accent": "#a16207",
+        "bg": "#f5f5f4",
+        "card": "#e7e5e4",
+        "fg": "#292524"
+      },
+      "physics": {
+        "r": 6,
+        "b": 0,
+        "s": 70,
+        "a": "card"
+      }
+    },
+    {
+      "no": 12,
+      "id": "bauhaus-geometric",
+      "name": "🏢 包浩斯幾何工藝 (Bauhaus Constructivism)",
+      "tag": "包浩斯",
+      "mode": "light",
+      "typoNo": 5,
+      "layoutTpl": "bento",
+      "desc": "幾何圓形、直角三角形交織，純三原色（紅、黃、藍）結構對稱，二十世紀現代主義工藝經典再現。",
+      "colors": {
+        "primary": "#dc2626",
+        "secondary": "#2563eb",
+        "accent": "#eab308",
+        "bg": "#f8fafc",
+        "card": "#ffffff",
+        "fg": "#0f172a"
+      },
+      "physics": {
+        "r": 0,
+        "b": 3,
+        "s": 120,
+        "a": "brutal"
+      }
+    },
+    {
+      "no": 13,
+      "id": "dark-mode-oled",
+      "name": "🖤 純黑極致 OLED (True Black OLED)",
+      "tag": "暗黑",
+      "mode": "oled",
+      "typoNo": 3,
+      "layoutTpl": "saas",
+      "desc": "#000000 絕對黑底，發光單元全關閉極致省電，精緻細灰框搭配微光螢光綠指示器，深邃沉浸。",
+      "colors": {
+        "primary": "#22c55e",
+        "secondary": "#06b6d4",
+        "accent": "#f59e0b",
+        "bg": "#000000",
+        "card": "#0b0f17",
+        "fg": "#f8fafc"
+      },
+      "physics": {
+        "r": 10,
+        "b": 1,
+        "s": 150,
+        "a": "card"
+      }
+    },
+    {
+      "no": 14,
+      "id": "monochrome-editorial",
+      "name": "🖋️ 單色極簡黑白誌 (Monochrome Editorial)",
+      "tag": "雜誌風",
+      "mode": "light",
+      "typoNo": 1,
+      "layoutTpl": "editorial",
+      "desc": "排除所有彩色雜訊，僅透過 #111 與 #EEE 的極致灰階層級說話，專注於大篇幅敘事文案與結構骨骼。",
+      "colors": {
+        "primary": "#18181b",
+        "secondary": "#71717a",
+        "accent": "#27272a",
+        "bg": "#ffffff",
+        "card": "#f4f4f5",
+        "fg": "#09090b"
+      },
+      "physics": {
+        "r": 4,
+        "b": 1,
+        "s": 70,
+        "a": "swiss"
+      }
+    },
+    {
+      "no": 15,
+      "id": "retro-futurism",
+      "name": "📼 復古未來主義 (Retro Futurism 80s)",
+      "tag": "復古",
+      "mode": "dark",
+      "typoNo": 6,
+      "layoutTpl": "bento",
+      "desc": "80 年代合成波（Synthwave）透視網格地平線、日落紫紅漸層與數位液晶字型，浪漫懷舊科技風。",
+      "colors": {
+        "primary": "#ec4899",
+        "secondary": "#8b5cf6",
+        "accent": "#06b6d4",
+        "bg": "#0f051d",
+        "card": "#1d0f38",
+        "fg": "#fae8ff"
+      },
+      "physics": {
+        "r": 8,
+        "b": 2,
+        "s": 140,
+        "a": "cyber"
+      }
+    },
+    {
+      "no": 16,
+      "id": "contemporary-agency",
+      "name": "✦ 當代先鋒創意工作室 (Contemporary Agency)",
+      "tag": "作品集",
+      "mode": "light",
+      "typoNo": 3,
+      "layoutTpl": "studio",
+      "desc": "跑馬燈循環流動標語、超大粗體品牌宣言、序號專案橫條（01/02）與懸浮箭頭動態，國際機構標竿。",
+      "colors": {
+        "primary": "#000000",
+        "secondary": "#404040",
+        "accent": "#f59e0b",
+        "bg": "#f5f5f4",
+        "card": "#ffffff",
+        "fg": "#171717"
+      },
+      "physics": {
+        "r": 8,
+        "b": 2,
+        "s": 110,
+        "a": "brutal"
+      }
+    },
+    {
+      "no": 17,
+      "id": "data-dense-terminal",
+      "name": "📊 高密度金融終端 (Fintech Dense Terminal)",
+      "tag": "中控台",
+      "mode": "light",
+      "typoNo": 5,
+      "layoutTpl": "pcDashboard",
+      "desc": "4 欄即時動態數據、微型火花折線走勢、多欄位緊湊審核表格，滿足高資訊吞吐量的專業工作站。",
+      "colors": {
+        "primary": "#0284c7",
+        "secondary": "#0d9488",
+        "accent": "#059669",
+        "bg": "#f1f5f9",
+        "card": "#ffffff",
+        "fg": "#0f172a"
+      },
+      "physics": {
+        "r": 6,
+        "b": 1,
+        "s": 85,
+        "a": "card"
+      }
+    },
+    {
+      "no": 18,
+      "id": "soft-ui-neumorph",
+      "name": "☁️ 軟雕塑微擬物 (Soft UI Evolution)",
+      "tag": "微擬物",
+      "mode": "light",
+      "typoNo": 4,
+      "layoutTpl": "bento",
+      "desc": "新世代軟性凸起與凹陷陰影，低飽和莫蘭迪色系，溫潤無銳角，適合觸控家電與醫療舒壓設備。",
+      "colors": {
+        "primary": "#9d6b75",
+        "secondary": "#7c9d8e",
+        "accent": "#c28c5a",
+        "bg": "#ebe5e2",
+        "card": "#ebe5e2",
+        "fg": "#3d3537"
+      },
+      "physics": {
+        "r": 18,
+        "b": 0,
+        "s": 120,
+        "a": "neumorph"
+      }
+    },
+    {
+      "no": 19,
+      "id": "genz-maximalism",
+      "name": "🌈 Z 世代混沌極繁主義 (Gen-Z Maximalism)",
+      "tag": "潮流",
+      "mode": "light",
+      "typoNo": 3,
+      "layoutTpl": "bento",
+      "desc": "視覺元素滿版堆疊、Emoji 貼紙風格徽章、高飽和霓虹色塊碰撞，充滿年輕潮流情緒與反叛張力。",
+      "colors": {
+        "primary": "#d946ef",
+        "secondary": "#06b6d4",
+        "accent": "#facc15",
+        "bg": "#fff1f9",
+        "card": "#ffffff",
+        "fg": "#1e1b4b"
+      },
+      "physics": {
+        "r": 16,
+        "b": 2,
+        "s": 130,
+        "a": "brutal"
+      }
+    },
+    {
+      "no": 20,
+      "id": "biotech-clinical",
+      "name": "🧪 現代生醫實驗室 (Biotech Clean Laboratory)",
+      "tag": "SaaS",
+      "mode": "light",
+      "typoNo": 5,
+      "layoutTpl": "saas",
+      "desc": "醫療冰藍、極高對比無菌白、分子結構圖表與精密參數卡，傳遞國際生醫研究的專業信賴感。",
+      "colors": {
+        "primary": "#0891b2",
+        "secondary": "#2563eb",
+        "accent": "#10b981",
+        "bg": "#f0fdfa",
+        "card": "#ffffff",
+        "fg": "#164e63"
+      },
+      "physics": {
+        "r": 10,
+        "b": 1,
+        "s": 90,
+        "a": "card"
+      }
+    },
+    {
+      "no": 21,
+      "id": "artisanal-cafe",
+      "name": "☕ 職人手沖咖啡誌 (Artisanal Coffee Journal)",
+      "tag": "雜誌風",
+      "mode": "light",
+      "typoNo": 4,
+      "layoutTpl": "editorial",
+      "desc": "深焙咖啡豆深褐、燕麥奶米黃，搭配厚磅牛皮紙質背景與慢活圖文對照，散發溫暖人文手作氣息。",
+      "colors": {
+        "primary": "#78350f",
+        "secondary": "#92400e",
+        "accent": "#d97706",
+        "bg": "#fef3c7",
+        "card": "#fffbeb",
+        "fg": "#451a03"
+      },
+      "physics": {
+        "r": 8,
+        "b": 1,
+        "s": 80,
+        "a": "card"
+      }
+    },
+    {
+      "no": 22,
+      "id": "spatial-audio",
+      "name": "🎧 空間音訊流動介面 (Spatial Audio Fluid)",
+      "tag": "毛玻璃",
+      "mode": "dark",
+      "typoNo": 3,
+      "layoutTpl": "saas",
+      "desc": "深海夜藍紫流動漸層，動態聲波頻譜光條，懸浮播放控制膠囊，專為沈浸式音樂體驗打造。",
+      "colors": {
+        "primary": "#8b5cf6",
+        "secondary": "#3b82f6",
+        "accent": "#ec4899",
+        "bg": "#090914",
+        "card": "#131326",
+        "fg": "#f5f3ff"
+      },
+      "physics": {
+        "r": 22,
+        "b": 1,
+        "s": 140,
+        "a": "glass"
+      }
+    },
+    {
+      "no": 23,
+      "id": "hypercar-telemetry",
+      "name": "🏎️ 頂級超跑賽道儀表 (Hypercar Racing Telemetry)",
+      "tag": "賽博",
+      "mode": "oled",
+      "typoNo": 6,
+      "layoutTpl": "bento",
+      "desc": "鍛造碳纖維純黑紋理、競速艷紅、馬力扭力圓弧儀表與轉速峰值警示，展現極限機械工藝美感。",
+      "colors": {
+        "primary": "#ef4444",
+        "secondary": "#f59e0b",
+        "accent": "#3b82f6",
+        "bg": "#050505",
+        "card": "#141414",
+        "fg": "#f5f5f5"
+      },
+      "physics": {
+        "r": 6,
+        "b": 1,
+        "s": 150,
+        "a": "cyber"
+      }
+    },
+    {
+      "no": 24,
+      "id": "nordic-furniture",
+      "name": "🪵 北歐當代家具型錄 (Nordic Living Lookbook)",
+      "tag": "奢華",
+      "mode": "light",
+      "typoNo": 1,
+      "layoutTpl": "editorial",
+      "desc": "淺白橡木自然色調、畫廊級極致大圖陳列、非對稱規格說明，追求生活空間的永恆簡約與溫馨。",
+      "colors": {
+        "primary": "#292524",
+        "secondary": "#57534e",
+        "accent": "#a8a29e",
+        "bg": "#fcfbf9",
+        "card": "#ffffff",
+        "fg": "#1c1917"
+      },
+      "physics": {
+        "r": 8,
+        "b": 1,
+        "s": 75,
+        "a": "swiss"
+      }
+    },
+    {
+      "no": 25,
+      "id": "deep-space-orbit",
+      "name": "🪐 深空軌道探測 (Deep Space Orbit)",
+      "tag": "SaaS",
+      "mode": "dark",
+      "typoNo": 6,
+      "layoutTpl": "saas",
+      "desc": "宇宙暗空背景、星系軌道經緯座標線、光年距離倒數儀表，充滿未知探索的未來航太氛圍。",
+      "colors": {
+        "primary": "#38bdf8",
+        "secondary": "#818cf8",
+        "accent": "#c084fc",
+        "bg": "#020617",
+        "card": "#0f172a",
+        "fg": "#f8fafc"
+      },
+      "physics": {
+        "r": 8,
+        "b": 1,
+        "s": 140,
+        "a": "glass"
+      }
+    },
+    {
+      "no": 26,
+      "id": "biennale-exhibition",
+      "name": "🎟️ 國際藝術雙年展展冊 (Biennale Exhibition)",
+      "tag": "藝文",
+      "mode": "light",
+      "typoNo": 1,
+      "layoutTpl": "editorial",
+      "desc": "超大展館編號字體（HALL A/B）、雙語策展人前言雙欄對齊、展出藝術品目錄索引，藝術家首選。",
+      "colors": {
+        "primary": "#0a0a0a",
+        "secondary": "#404040",
+        "accent": "#ea580c",
+        "bg": "#ffffff",
+        "card": "#f5f5f4",
+        "fg": "#0a0a0a"
+      },
+      "physics": {
+        "r": 0,
+        "b": 1,
+        "s": 60,
+        "a": "swiss"
+      }
+    },
+    {
+      "no": 27,
+      "id": "hedge-fund-terminal",
+      "name": "📈 量化避險基金戰情台 (Quant Hedge Fund)",
+      "tag": "中控台",
+      "mode": "dark",
+      "typoNo": 5,
+      "layoutTpl": "pcDashboard",
+      "desc": "金融綠多頭指標、多維度波動率山積圖、毫秒級撮合交易清單，專為機構交易員打造的高壓介面。",
+      "colors": {
+        "primary": "#10b981",
+        "secondary": "#06b6d4",
+        "accent": "#f59e0b",
+        "bg": "#0b0f19",
+        "card": "#111827",
+        "fg": "#f3f4f6"
+      },
+      "physics": {
+        "r": 6,
+        "b": 1,
+        "s": 120,
+        "a": "card"
+      }
+    },
+    {
+      "no": 28,
+      "id": "mindfulness-audio",
+      "name": "🧘 靜觀冥想心靈誌 (Mindfulness Audio)",
+      "tag": "極簡",
+      "mode": "light",
+      "typoNo": 4,
+      "layoutTpl": "editorial",
+      "desc": "低彩度鼠尾草綠、慢速呼吸波紋進度環、極簡白噪音卡，撫平現代人焦慮與資訊過載。",
+      "colors": {
+        "primary": "#3f6212",
+        "secondary": "#65a30d",
+        "accent": "#ca8a04",
+        "bg": "#f7fee7",
+        "card": "#ffffff",
+        "fg": "#1a2e05"
+      },
+      "physics": {
+        "r": 16,
+        "b": 0,
+        "s": 80,
+        "a": "card"
+      }
+    },
+    {
+      "no": 29,
+      "id": "independent-review",
+      "name": "📖 獨立評論文化誌 (Independent Journal Review)",
+      "tag": "雜誌風",
+      "mode": "light",
+      "typoNo": 1,
+      "layoutTpl": "editorial",
+      "desc": "經典三欄報刊排版、典雅大首字（Drop Cap）、長篇深閱讀排版最佳化，知識分子的思想載體。",
+      "colors": {
+        "primary": "#1e293b",
+        "secondary": "#475569",
+        "accent": "#b91c1c",
+        "bg": "#f8fafc",
+        "card": "#ffffff",
+        "fg": "#0f172a"
+      },
+      "physics": {
+        "r": 2,
+        "b": 1,
+        "s": 65,
+        "a": "swiss"
+      }
+    },
+    {
+      "no": 30,
+      "id": "bim-construction-erp",
+      "name": "🏗️ 現代營建雲端中控 (BIM Construction ERP)",
+      "tag": "營建",
+      "mode": "light",
+      "typoNo": 3,
+      "layoutTpl": "pcDashboard",
+      "desc": "工務經理專屬中控大台，4 欄即時出工人數、工期超前率、材料檢驗審核表格與工安無災害指標。",
+      "colors": {
+        "primary": "#2f5d43",
+        "secondary": "#3b6b73",
+        "accent": "#d97706",
+        "bg": "#eef4f0",
+        "card": "#ffffff",
+        "fg": "#0f172a"
+      },
+      "physics": {
+        "r": 8,
+        "b": 1,
+        "s": 95,
+        "a": "card"
+      }
+    },
+    {
+      "no": 31,
+      "id": "kinetic-typography",
+      "name": "🔤 動態字體先鋒網頁 (Kinetic Typography)",
+      "tag": "作品集",
+      "mode": "dark",
+      "typoNo": 3,
+      "layoutTpl": "studio",
+      "desc": "文字不再是靜態標籤，而是化為視覺幾何巨浪，隨著滾動縮放變焦，震撼感強烈的數位海報排版。",
+      "colors": {
+        "primary": "#facc15",
+        "secondary": "#ffffff",
+        "accent": "#ef4444",
+        "bg": "#0a0a0a",
+        "card": "#171717",
+        "fg": "#ffffff"
+      },
+      "physics": {
+        "r": 0,
+        "b": 2,
+        "s": 130,
+        "a": "brutal"
+      }
+    },
+    {
+      "no": 32,
+      "id": "craft-ceramic",
+      "name": "🏺 當代手工陶藝館 (Ceramic Craft Atelier)",
+      "tag": "藝文",
+      "mode": "light",
+      "typoNo": 4,
+      "layoutTpl": "editorial",
+      "desc": "陶土赤紅與窯燒焦糖色調，微細紋理紙張感，專注展現器物弧線與匠人手感溫度的專案頁面。",
+      "colors": {
+        "primary": "#9a3412",
+        "secondary": "#c2410c",
+        "accent": "#ea580c",
+        "bg": "#fff7ed",
+        "card": "#ffedd5",
+        "fg": "#431407"
+      },
+      "physics": {
+        "r": 10,
+        "b": 1,
+        "s": 75,
+        "a": "card"
+      }
+    },
+    {
+      "no": 33,
+      "id": "neo-grotesque-corp",
+      "name": "💼 新無襯線現代企業 (Neo-Grotesque Corporate)",
+      "tag": "極簡",
+      "mode": "light",
+      "typoNo": 5,
+      "layoutTpl": "saas",
+      "desc": "國際企業首選的嚴謹信賴感，清爽深藍與白底對比，邏輯清晰的卡片層級，跨國企業官方標配。",
+      "colors": {
+        "primary": "#1d4ed8",
+        "secondary": "#2563eb",
+        "accent": "#0ea5e9",
+        "bg": "#f8fafc",
+        "card": "#ffffff",
+        "fg": "#0f172a"
+      },
+      "physics": {
+        "r": 8,
+        "b": 1,
+        "s": 85,
+        "a": "card"
+      }
+    },
+    {
+      "no": 34,
+      "id": "sustainable-green",
+      "name": "🍃 永續淨零綠色倡議 (ESG Sustainable Green)",
+      "tag": "極簡",
+      "mode": "light",
+      "typoNo": 3,
+      "layoutTpl": "bento",
+      "desc": "森林墨綠與大地素色，低碳排極簡設計哲學，碳足跡可視化儀表，傳遞企業永續 ESG 承諾。",
+      "colors": {
+        "primary": "#15803d",
+        "secondary": "#166534",
+        "accent": "#84cc16",
+        "bg": "#f0fdf4",
+        "card": "#ffffff",
+        "fg": "#14532d"
+      },
+      "physics": {
+        "r": 12,
+        "b": 1,
+        "s": 90,
+        "a": "card"
+      }
+    },
+    {
+      "no": 35,
+      "id": "y2k-aesthetic",
+      "name": "💿 Y2K 千禧未來復古 (Y2K Aesthetic)",
+      "tag": "復古",
+      "mode": "dark",
+      "typoNo": 6,
+      "layoutTpl": "bento",
+      "desc": "千禧年金屬鉻銀、像素星星圖示、泡泡立體按鈕與透明塑料漸變，千禧世代復古潮玩。",
+      "colors": {
+        "primary": "#a855f7",
+        "secondary": "#ec4899",
+        "accent": "#38bdf8",
+        "bg": "#0f172a",
+        "card": "#1e293b",
+        "fg": "#f1f5f9"
+      },
+      "physics": {
+        "r": 20,
+        "b": 2,
+        "s": 140,
+        "a": "clay"
+      }
+    },
+    {
+      "no": 36,
+      "id": "fine-dining",
+      "name": "🍷 米其林精緻餐飲 (Fine Dining Atelier)",
+      "tag": "奢華",
+      "mode": "dark",
+      "typoNo": 1,
+      "layoutTpl": "editorial",
+      "desc": "極黑底奢華香檳金字，法式主廚品嚐菜單排版，優雅細窄排版，營造尊榮私廚盛宴體驗。",
+      "colors": {
+        "primary": "#d97706",
+        "secondary": "#f59e0b",
+        "accent": "#b45309",
+        "bg": "#0a0a0a",
+        "card": "#141414",
+        "fg": "#fef3c7"
+      },
+      "physics": {
+        "r": 4,
+        "b": 1,
+        "s": 110,
+        "a": "swiss"
+      }
+    },
+    {
+      "no": 37,
+      "id": "game-launcher",
+      "name": "🎮 次世代遊戲啟動器 (Next-Gen Game Launcher)",
+      "tag": "賽博",
+      "mode": "dark",
+      "typoNo": 6,
+      "layoutTpl": "saas",
+      "desc": "沉浸滿版遊戲光環、即時好友在線狀態、戰績進度解鎖徽章，玩家最愛的電競社群中樞。",
+      "colors": {
+        "primary": "#8b5cf6",
+        "secondary": "#06b6d4",
+        "accent": "#f43f5e",
+        "bg": "#030712",
+        "card": "#0f172a",
+        "fg": "#f8fafc"
+      },
+      "physics": {
+        "r": 12,
+        "b": 2,
+        "s": 160,
+        "a": "cyber"
+      }
+    },
+    {
+      "no": 38,
+      "id": "fashion-runway",
+      "name": "👠 巴黎時裝週走秀特輯 (Fashion Runway Live)",
+      "tag": "奢華",
+      "mode": "light",
+      "typoNo": 1,
+      "layoutTpl": "editorial",
+      "desc": "超高對比伸展台模特攝影、超窄字距無襯線粗體標籤、大幅動態拼貼，時裝雜誌封面級張力。",
+      "colors": {
+        "primary": "#000000",
+        "secondary": "#525252",
+        "accent": "#dc2626",
+        "bg": "#ffffff",
+        "card": "#f5f5f5",
+        "fg": "#000000"
+      },
+      "physics": {
+        "r": 0,
+        "b": 1,
+        "s": 50,
+        "a": "swiss"
+      }
+    },
+    {
+      "no": 39,
+      "id": "industrial-hardware",
+      "name": "🛠️ 現代工業五金工藝 (Industrial Hardware)",
+      "tag": "粗野",
+      "mode": "light",
+      "typoNo": 6,
+      "layoutTpl": "pcDashboard",
+      "desc": "霧面陽極氧化鋁質感、嚴格工程標註尺寸、倒角幾何邊線與材料抗拉強度表，工業設計師嚴選。",
+      "colors": {
+        "primary": "#475569",
+        "secondary": "#64748b",
+        "accent": "#ea580c",
+        "bg": "#f8fafc",
+        "card": "#ffffff",
+        "fg": "#0f172a"
+      },
+      "physics": {
+        "r": 2,
+        "b": 2,
+        "s": 90,
+        "a": "brutal"
+      }
+    },
+    {
+      "no": 40,
+      "id": "indie-game-pixel",
+      "name": "👾 獨立復古像素藝術 (Indie Pixel Art)",
+      "tag": "復古",
+      "mode": "dark",
+      "typoNo": 6,
+      "layoutTpl": "bento",
+      "desc": "8-bit 點陣像素美學、復古街機色彩、關卡進度條與血量格子，專為復古獨立遊戲設計。",
+      "colors": {
+        "primary": "#10b981",
+        "secondary": "#f59e0b",
+        "accent": "#ec4899",
+        "bg": "#111827",
+        "card": "#1f2937",
+        "fg": "#f9fafb"
+      },
+      "physics": {
+        "r": 0,
+        "b": 3,
+        "s": 100,
+        "a": "brutal"
+      }
+    },
+    {
+      "no": 41,
+      "id": "luxury-real-estate",
+      "name": "🏙️ 頂級豪宅建築地產 (Luxury Real Estate)",
+      "tag": "奢華",
+      "mode": "light",
+      "typoNo": 1,
+      "layoutTpl": "editorial",
+      "desc": "超廣角建築景觀大圖、奢華香檳金點綴、平面格局導覽浮層與私廚秘書預約，豪宅銷售旗艦。",
+      "colors": {
+        "primary": "#1c1917",
+        "secondary": "#78716c",
+        "accent": "#ca8a04",
+        "bg": "#fafaf9",
+        "card": "#ffffff",
+        "fg": "#1c1917"
+      },
+      "physics": {
+        "r": 4,
+        "b": 1,
+        "s": 85,
+        "a": "swiss"
+      }
+    },
+    {
+      "no": 42,
+      "id": "web3-crypto-hub",
+      "name": "🪙 Web3 加密資產協議 (Crypto Protocol Hub)",
+      "tag": "SaaS",
+      "mode": "dark",
+      "typoNo": 6,
+      "layoutTpl": "saas",
+      "desc": "深紫發光漸變、流動性池 APY 徽章、去中心化錢包連接狀態與智能合約審計認證印記。",
+      "colors": {
+        "primary": "#8b5cf6",
+        "secondary": "#ec4899",
+        "accent": "#10b981",
+        "bg": "#0c0a1d",
+        "card": "#161233",
+        "fg": "#f5f3ff"
+      },
+      "physics": {
+        "r": 14,
+        "b": 1,
+        "s": 150,
+        "a": "glass"
+      }
+    },
+    {
+      "no": 43,
+      "id": "sound-studio",
+      "name": "🎚️ 專業混音錄音工作站 (Sound Studio DAW)",
+      "tag": "中控台",
+      "mode": "dark",
+      "typoNo": 6,
+      "layoutTpl": "pcDashboard",
+      "desc": "分貝電平即時跳動、實體混音推桿視覺化、音軌顏色分類與母帶後期製作面板，錄音工程師利器。",
+      "colors": {
+        "primary": "#f59e0b",
+        "secondary": "#ef4444",
+        "accent": "#10b981",
+        "bg": "#121214",
+        "card": "#1c1c20",
+        "fg": "#e4e4e7"
+      },
+      "physics": {
+        "r": 4,
+        "b": 1,
+        "s": 130,
+        "a": "card"
+      }
+    },
+    {
+      "no": 44,
+      "id": "wellness-spa",
+      "name": "🌸 頂級溫泉芳療水療 (Wellness Spa Sanctuary)",
+      "tag": "極簡",
+      "mode": "light",
+      "typoNo": 4,
+      "layoutTpl": "editorial",
+      "desc": "白茶柔霧粉、溫潤水滴微動效、精油療程預約時間軸，讓訪客第一眼感受到放鬆與沉靜。",
+      "colors": {
+        "primary": "#be185d",
+        "secondary": "#db2777",
+        "accent": "#f472b6",
+        "bg": "#fdf2f8",
+        "card": "#ffffff",
+        "fg": "#831843"
+      },
+      "physics": {
+        "r": 16,
+        "b": 0,
+        "s": 75,
+        "a": "card"
+      }
+    },
+    {
+      "no": 45,
+      "id": "travel-expedition",
+      "name": "🧭 國家地理探險特刊 (Global Expedition)",
+      "tag": "雜誌風",
+      "mode": "light",
+      "typoNo": 3,
+      "layoutTpl": "editorial",
+      "desc": "探險大地黃與軍綠、等高線地形圖線條、經緯度航線紀錄與野生攝影巨幅跨頁，呼喚冒險精神。",
+      "colors": {
+        "primary": "#1e3a8a",
+        "secondary": "#1d4ed8",
+        "accent": "#ea580c",
+        "bg": "#f8fafc",
+        "card": "#ffffff",
+        "fg": "#0f172a"
+      },
+      "physics": {
+        "r": 6,
+        "b": 1,
+        "s": 85,
+        "a": "card"
+      }
+    },
+    {
+      "no": 46,
+      "id": "modern-law-firm",
+      "name": "⚖️ 當代菁英法律事務所 (Modern Law Chamber)",
+      "tag": "極簡",
+      "mode": "light",
+      "typoNo": 1,
+      "layoutTpl": "editorial",
+      "desc": "權威英式海軍藍、嚴謹法條編號分段、合夥人資歷檔案與勝訴實績數據，展現法律界最高威信。",
+      "colors": {
+        "primary": "#0f172a",
+        "secondary": "#1e293b",
+        "accent": "#94a3b8",
+        "bg": "#f8fafc",
+        "card": "#ffffff",
+        "fg": "#020617"
+      },
+      "physics": {
+        "r": 2,
+        "b": 1,
+        "s": 70,
+        "a": "swiss"
+      }
+    },
+    {
+      "no": 47,
+      "id": "kids-playful-learn",
+      "name": "🎈 兒童啟蒙探索樂園 (Playful Learning World)",
+      "tag": "3D黏土",
+      "mode": "light",
+      "typoNo": 2,
+      "layoutTpl": "bento",
+      "desc": "大圓弧趣味邊角、繽紛三原色、關卡徽章收集進度與活潑互動卡片，讓幼兒學習充滿探索樂趣。",
+      "colors": {
+        "primary": "#3b82f6",
+        "secondary": "#10b981",
+        "accent": "#f59e0b",
+        "bg": "#eff6ff",
+        "card": "#ffffff",
+        "fg": "#1e3a8a"
+      },
+      "physics": {
+        "r": 26,
+        "b": 2,
+        "s": 120,
+        "a": "clay"
+      }
+    },
+    {
+      "no": 48,
+      "id": "museum-archive",
+      "name": "🏛️ 國立典藏博物館檔案 (National Museum Archive)",
+      "tag": "藝文",
+      "mode": "light",
+      "typoNo": 1,
+      "layoutTpl": "editorial",
+      "desc": "文物典藏流水編號、歷史朝代時間軸刻度、高精度珍藏品縮放檢視，國家級文化數位資料庫。",
+      "colors": {
+        "primary": "#1f2937",
+        "secondary": "#4b5563",
+        "accent": "#b45309",
+        "bg": "#fafaf9",
+        "card": "#ffffff",
+        "fg": "#111827"
+      },
+      "physics": {
+        "r": 0,
+        "b": 1,
+        "s": 65,
+        "a": "swiss"
+      }
+    },
+    {
+      "no": 49,
+      "id": "creative-developer",
+      "name": "💻 創意工程師互動主頁 (Creative Dev Terminal)",
+      "tag": "作品集",
+      "mode": "dark",
+      "typoNo": 6,
+      "layoutTpl": "studio",
+      "desc": "VS Code 暗黑主題風格、語法高亮代碼區塊、Git 提交歷史熱力圖與終端 CLI 互動列，全端開發者必備。",
+      "colors": {
+        "primary": "#38bdf8",
+        "secondary": "#4ade80",
+        "accent": "#f472b6",
+        "bg": "#0f172a",
+        "card": "#1e293b",
+        "fg": "#e2e8f0"
+      },
+      "physics": {
+        "r": 8,
+        "b": 1,
+        "s": 130,
+        "a": "cyber"
+      }
+    },
+    {
+      "no": 50,
+      "id": "smart-city-iot",
+      "name": "🌐 智慧城市物聯網中樞 (Smart City IoT Platform)",
+      "tag": "中控台",
+      "mode": "dark",
+      "typoNo": 5,
+      "layoutTpl": "pcDashboard",
+      "desc": "城市 3D 空間網格、交通車流感測熱力圖、空氣品質即時監測與災害警報分流，智慧市政總控台。",
+      "colors": {
+        "primary": "#06b6d4",
+        "secondary": "#3b82f6",
+        "accent": "#10b981",
+        "bg": "#030712",
+        "card": "#0b1329",
+        "fg": "#e0f2fe"
+      },
+      "physics": {
+        "r": 8,
+        "b": 1,
+        "s": 140,
+        "a": "card"
+      }
+    }
+  ],
+  "palettes": [
+    {
+      "no": 1,
+      "product": "雲端軟體服務 (通用型)",
+      "enProduct": "SaaS (General)",
+      "primary": "#2563EB",
+      "secondary": "#3B82F6",
+      "accent": "#EA580C",
+      "background": "#F8FAFC",
+      "foreground": "#1E293B",
+      "card": "#FFFFFF",
+      "border": "#E2E8F0"
+    },
+    {
+      "no": 2,
+      "product": "輕量型訂閱制工具",
+      "enProduct": "Micro SaaS",
+      "primary": "#6366F1",
+      "secondary": "#818CF8",
+      "accent": "#059669",
+      "background": "#F5F3FF",
+      "foreground": "#1E1B4B",
+      "card": "#FFFFFF",
+      "border": "#E0E7FF"
+    },
+    {
+      "no": 3,
+      "product": "綜合型電商購物平台",
+      "enProduct": "E-commerce",
+      "primary": "#059669",
+      "secondary": "#10B981",
+      "accent": "#EA580C",
+      "background": "#ECFDF5",
+      "foreground": "#064E3B",
+      "card": "#FFFFFF",
+      "border": "#A7F3D0"
+    },
+    {
+      "no": 4,
+      "product": "精品奢華品牌電商",
+      "enProduct": "E-commerce Luxury",
+      "primary": "#1C1917",
+      "secondary": "#44403C",
+      "accent": "#A16207",
+      "background": "#FAFAF9",
+      "foreground": "#0C0A09",
+      "card": "#FFFFFF",
+      "border": "#D6D3D1"
+    },
+    {
+      "no": 5,
+      "product": "企業級商務顧問服務",
+      "enProduct": "B2B Service",
+      "primary": "#0F172A",
+      "secondary": "#334155",
+      "accent": "#0369A1",
+      "background": "#F8FAFC",
+      "foreground": "#020617",
+      "card": "#FFFFFF",
+      "border": "#E2E8F0"
+    },
+    {
+      "no": 6,
+      "product": "財務金融 儀表板",
+      "enProduct": "Financial Dashboard",
+      "primary": "#0F172A",
+      "secondary": "#1E293B",
+      "accent": "#22C55E",
+      "background": "#020617",
+      "foreground": "#F8FAFC",
+      "card": "#0E1223",
+      "border": "#334155"
+    },
+    {
+      "no": 7,
+      "product": "數據分析 儀表板",
+      "enProduct": "Analytics Dashboard",
+      "primary": "#1E40AF",
+      "secondary": "#3B82F6",
+      "accent": "#D97706",
+      "background": "#F8FAFC",
+      "foreground": "#1E3A8A",
+      "card": "#FFFFFF",
+      "border": "#DBEAFE"
+    },
+    {
+      "no": 8,
+      "product": "醫療健康 行動應用",
+      "enProduct": "Healthcare App",
+      "primary": "#0891B2",
+      "secondary": "#22D3EE",
+      "accent": "#059669",
+      "background": "#ECFEFF",
+      "foreground": "#164E63",
+      "card": "#FFFFFF",
+      "border": "#A5F3FC"
+    },
+    {
+      "no": 9,
+      "product": "教育學習 行動應用",
+      "enProduct": "Educational App",
+      "primary": "#4F46E5",
+      "secondary": "#818CF8",
+      "accent": "#EA580C",
+      "background": "#EEF2FF",
+      "foreground": "#1E1B4B",
+      "card": "#FFFFFF",
+      "border": "#C7D2FE"
+    },
+    {
+      "no": 10,
+      "product": "創意視覺 創意設計事務所",
+      "enProduct": "Creative Agency",
+      "primary": "#EC4899",
+      "secondary": "#F472B6",
+      "accent": "#0891B2",
+      "background": "#FDF2F8",
+      "foreground": "#831843",
+      "card": "#FFFFFF",
+      "border": "#FBCFE8"
+    },
+    {
+      "no": 11,
+      "product": "個人品牌作品集 個人",
+      "enProduct": "Portfolio/Personal",
+      "primary": "#18181B",
+      "secondary": "#3F3F46",
+      "accent": "#2563EB",
+      "background": "#FAFAFA",
+      "foreground": "#09090B",
+      "card": "#FFFFFF",
+      "border": "#E4E4E7"
+    },
+    {
+      "no": 12,
+      "product": "電競戰隊與次世代遊戲",
+      "enProduct": "Gaming",
+      "primary": "#7C3AED",
+      "secondary": "#A78BFA",
+      "accent": "#F43F5E",
+      "background": "#0F0F23",
+      "foreground": "#E2E8F0",
+      "card": "#1E1C35",
+      "border": "#4C1D95"
+    },
+    {
+      "no": 13,
+      "product": "公共政務 服務",
+      "enProduct": "Government/Public Service",
+      "primary": "#0F172A",
+      "secondary": "#334155",
+      "accent": "#0369A1",
+      "background": "#F8FAFC",
+      "foreground": "#020617",
+      "card": "#FFFFFF",
+      "border": "#E2E8F0"
+    },
+    {
+      "no": 14,
+      "product": "金融科技與加密資產",
+      "enProduct": "Fintech/Crypto",
+      "primary": "#F59E0B",
+      "secondary": "#FBBF24",
+      "accent": "#8B5CF6",
+      "background": "#0F172A",
+      "foreground": "#F8FAFC",
+      "card": "#222735",
+      "border": "#334155"
+    },
+    {
+      "no": 15,
+      "product": "社群媒體 行動應用",
+      "enProduct": "Social Media App",
+      "primary": "#E11D48",
+      "secondary": "#FB7185",
+      "accent": "#2563EB",
+      "background": "#FFF1F2",
+      "foreground": "#881337",
+      "card": "#FFFFFF",
+      "border": "#FECDD3"
+    },
+    {
+      "no": 16,
+      "product": "高效生產力 工具",
+      "enProduct": "Productivity Tool",
+      "primary": "#0D9488",
+      "secondary": "#14B8A6",
+      "accent": "#EA580C",
+      "background": "#F0FDFA",
+      "foreground": "#134E4A",
+      "card": "#FFFFFF",
+      "border": "#99F6E4"
+    },
+    {
+      "no": 17,
+      "product": "通用行動應用 #17",
+      "enProduct": "Design System/Component Library",
+      "primary": "#4F46E5",
+      "secondary": "#6366F1",
+      "accent": "#EA580C",
+      "background": "#EEF2FF",
+      "foreground": "#312E81",
+      "card": "#FFFFFF",
+      "border": "#C7D2FE"
+    },
+    {
+      "no": 18,
+      "product": "智慧對話與生成平台",
+      "enProduct": "AI/Chatbot Platform",
+      "primary": "#7C3AED",
+      "secondary": "#A78BFA",
+      "accent": "#0891B2",
+      "background": "#FAF5FF",
+      "foreground": "#1E1B4B",
+      "card": "#FFFFFF",
+      "border": "#DDD6FE"
+    },
+    {
+      "no": 19,
+      "product": "數位藏品 區塊鏈去中心化應用 平台",
+      "enProduct": "NFT/Web3 Platform",
+      "primary": "#8B5CF6",
+      "secondary": "#A78BFA",
+      "accent": "#FBBF24",
+      "background": "#0F0F23",
+      "foreground": "#F8FAFC",
+      "card": "#1E1D35",
+      "border": "#4C1D95"
+    },
+    {
+      "no": 20,
+      "product": "平台",
+      "enProduct": "Creator Economy Platform",
+      "primary": "#EC4899",
+      "secondary": "#F472B6",
+      "accent": "#EA580C",
+      "background": "#FDF2F8",
+      "foreground": "#831843",
+      "card": "#FFFFFF",
+      "border": "#FBCFE8"
+    },
+    {
+      "no": 21,
+      "product": "工具",
+      "enProduct": "Remote Work/Collaboration Tool",
+      "primary": "#6366F1",
+      "secondary": "#818CF8",
+      "accent": "#059669",
+      "background": "#F5F3FF",
+      "foreground": "#312E81",
+      "card": "#FFFFFF",
+      "border": "#E0E7FF"
+    },
+    {
+      "no": 22,
+      "product": "心理健康正念 行動應用",
+      "enProduct": "Mental Health App",
+      "primary": "#8B5CF6",
+      "secondary": "#C4B5FD",
+      "accent": "#059669",
+      "background": "#FAF5FF",
+      "foreground": "#4C1D95",
+      "card": "#FFFFFF",
+      "border": "#EDE9FE"
+    },
+    {
+      "no": 23,
+      "product": "寵物毛孩 行動應用",
+      "enProduct": "Pet Tech App",
+      "primary": "#F97316",
+      "secondary": "#FB923C",
+      "accent": "#2563EB",
+      "background": "#FFF7ED",
+      "foreground": "#9A3412",
+      "card": "#FFFFFF",
+      "border": "#FED7AA"
+    },
+    {
+      "no": 24,
+      "product": "智慧家庭環控 儀表板",
+      "enProduct": "Smart Home/IoT Dashboard",
+      "primary": "#1E293B",
+      "secondary": "#334155",
+      "accent": "#22C55E",
+      "background": "#0F172A",
+      "foreground": "#F8FAFC",
+      "card": "#1B2336",
+      "border": "#475569"
+    },
+    {
+      "no": 25,
+      "product": "電動車充電",
+      "enProduct": "EV/Charging Ecosystem",
+      "primary": "#0891B2",
+      "secondary": "#22D3EE",
+      "accent": "#16A34A",
+      "background": "#ECFEFF",
+      "foreground": "#164E63",
+      "card": "#FFFFFF",
+      "border": "#A5F3FC"
+    },
+    {
+      "no": 26,
+      "product": "訂閱制會員服務 服務",
+      "enProduct": "Subscription Box Service",
+      "primary": "#D946EF",
+      "secondary": "#E879F9",
+      "accent": "#EA580C",
+      "background": "#FDF4FF",
+      "foreground": "#86198F",
+      "card": "#FFFFFF",
+      "border": "#F5D0FE"
+    },
+    {
+      "no": 27,
+      "product": "播客音訊 平台",
+      "enProduct": "Podcast Platform",
+      "primary": "#1E1B4B",
+      "secondary": "#312E81",
+      "accent": "#F97316",
+      "background": "#0F0F23",
+      "foreground": "#F8FAFC",
+      "card": "#1B1B30",
+      "border": "#4338CA"
+    },
+    {
+      "no": 28,
+      "product": "交友社群 行動應用",
+      "enProduct": "Dating App",
+      "primary": "#E11D48",
+      "secondary": "#FB7185",
+      "accent": "#EA580C",
+      "background": "#FFF1F2",
+      "foreground": "#881337",
+      "card": "#FFFFFF",
+      "border": "#FECDD3"
+    },
+    {
+      "no": 29,
+      "product": "平台",
+      "enProduct": "Micro-Credentials/Badges Platform",
+      "primary": "#0369A1",
+      "secondary": "#0EA5E9",
+      "accent": "#A16207",
+      "background": "#F0F9FF",
+      "foreground": "#0C4A6E",
+      "card": "#FFFFFF",
+      "border": "#BAE6FD"
+    },
+    {
+      "no": 30,
+      "product": "通用行動應用 #30",
+      "enProduct": "Knowledge Base/Documentation",
+      "primary": "#475569",
+      "secondary": "#64748B",
+      "accent": "#2563EB",
+      "background": "#F8FAFC",
+      "foreground": "#1E293B",
+      "card": "#FFFFFF",
+      "border": "#E2E8F0"
+    },
+    {
+      "no": 31,
+      "product": "服務",
+      "enProduct": "Hyperlocal Services",
+      "primary": "#059669",
+      "secondary": "#10B981",
+      "accent": "#EA580C",
+      "background": "#ECFDF5",
+      "foreground": "#064E3B",
+      "card": "#FFFFFF",
+      "border": "#A7F3D0"
+    },
+    {
+      "no": 32,
+      "product": "美學芳療沙龍 芳療水療中心 身心平衡健康 服務",
+      "enProduct": "Beauty/Spa/Wellness Service",
+      "primary": "#EC4899",
+      "secondary": "#F9A8D4",
+      "accent": "#8B5CF6",
+      "background": "#FDF2F8",
+      "foreground": "#831843",
+      "card": "#FFFFFF",
+      "border": "#FBCFE8"
+    },
+    {
+      "no": 33,
+      "product": "奢華精品",
+      "enProduct": "Luxury/Premium Brand",
+      "primary": "#1C1917",
+      "secondary": "#44403C",
+      "accent": "#A16207",
+      "background": "#FAFAF9",
+      "foreground": "#0C0A09",
+      "card": "#FFFFFF",
+      "border": "#D6D3D1"
+    },
+    {
+      "no": 34,
+      "product": "餐飲門市系統 美食餐飲 服務",
+      "enProduct": "Restaurant/Food Service",
+      "primary": "#DC2626",
+      "secondary": "#F87171",
+      "accent": "#A16207",
+      "background": "#FEF2F2",
+      "foreground": "#450A0A",
+      "card": "#FFFFFF",
+      "border": "#FECACA"
+    },
+    {
+      "no": 35,
+      "product": "健身運動 健身中心 行動應用",
+      "enProduct": "Fitness/Gym App",
+      "primary": "#F97316",
+      "secondary": "#FB923C",
+      "accent": "#22C55E",
+      "background": "#1F2937",
+      "foreground": "#F8FAFC",
+      "card": "#313742",
+      "border": "#374151"
+    },
+    {
+      "no": 36,
+      "product": "建築空間與房屋租售",
+      "enProduct": "Real Estate/Property",
+      "primary": "#0F766E",
+      "secondary": "#14B8A6",
+      "accent": "#0369A1",
+      "background": "#F0FDFA",
+      "foreground": "#134E4A",
+      "card": "#FFFFFF",
+      "border": "#99F6E4"
+    },
+    {
+      "no": 37,
+      "product": "觀光旅遊 創意設計事務所",
+      "enProduct": "Travel/Tourism Agency",
+      "primary": "#0EA5E9",
+      "secondary": "#38BDF8",
+      "accent": "#EA580C",
+      "background": "#F0F9FF",
+      "foreground": "#0C4A6E",
+      "card": "#FFFFFF",
+      "border": "#BAE6FD"
+    },
+    {
+      "no": 38,
+      "product": "精品飯店與渡假村訂房",
+      "enProduct": "Hotel/Hospitality",
+      "primary": "#1E3A8A",
+      "secondary": "#3B82F6",
+      "accent": "#A16207",
+      "background": "#F8FAFC",
+      "foreground": "#1E40AF",
+      "card": "#FFFFFF",
+      "border": "#BFDBFE"
+    },
+    {
+      "no": 39,
+      "product": "婚禮顧問 活動票務",
+      "enProduct": "Wedding/Event Planning",
+      "primary": "#DB2777",
+      "secondary": "#F472B6",
+      "accent": "#A16207",
+      "background": "#FDF2F8",
+      "foreground": "#831843",
+      "card": "#FFFFFF",
+      "border": "#FBCFE8"
+    },
+    {
+      "no": 40,
+      "product": "法律事務所與合約管理",
+      "enProduct": "Legal Services",
+      "primary": "#1E3A8A",
+      "secondary": "#1E40AF",
+      "accent": "#B45309",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#CBD5E1"
+    },
+    {
+      "no": 41,
+      "product": "數位保險服務 平台",
+      "enProduct": "Insurance Platform",
+      "primary": "#0369A1",
+      "secondary": "#0EA5E9",
+      "accent": "#16A34A",
+      "background": "#F0F9FF",
+      "foreground": "#0C4A6E",
+      "card": "#FFFFFF",
+      "border": "#BAE6FD"
+    },
+    {
+      "no": 42,
+      "product": "數位銀行與財富管理",
+      "enProduct": "Banking/Traditional Finance",
+      "primary": "#0F172A",
+      "secondary": "#1E3A8A",
+      "accent": "#A16207",
+      "background": "#F8FAFC",
+      "foreground": "#020617",
+      "card": "#FFFFFF",
+      "border": "#E2E8F0"
+    },
+    {
+      "no": 43,
+      "product": "線上學習",
+      "enProduct": "Online Course/E-learning",
+      "primary": "#0D9488",
+      "secondary": "#2DD4BF",
+      "accent": "#EA580C",
+      "background": "#F0FDFA",
+      "foreground": "#134E4A",
+      "card": "#FFFFFF",
+      "border": "#5EEAD4"
+    },
+    {
+      "no": 44,
+      "product": "公益慈善",
+      "enProduct": "Non-profit/Charity",
+      "primary": "#0891B2",
+      "secondary": "#22D3EE",
+      "accent": "#EA580C",
+      "background": "#ECFEFF",
+      "foreground": "#164E63",
+      "card": "#FFFFFF",
+      "border": "#A5F3FC"
+    },
+    {
+      "no": 45,
+      "product": "無損音樂串流與播客",
+      "enProduct": "Music Streaming",
+      "primary": "#1E1B4B",
+      "secondary": "#4338CA",
+      "accent": "#22C55E",
+      "background": "#0F0F23",
+      "foreground": "#F8FAFC",
+      "card": "#1B1B30",
+      "border": "#312E81"
+    },
+    {
+      "no": 46,
+      "product": "影音創作串流 串流影音",
+      "enProduct": "Video Streaming/OTT",
+      "primary": "#0F0F23",
+      "secondary": "#1E1B4B",
+      "accent": "#E11D48",
+      "background": "#000000",
+      "foreground": "#F8FAFC",
+      "card": "#0C0C0D",
+      "border": "#312E81"
+    },
+    {
+      "no": 47,
+      "product": "求職媒合",
+      "enProduct": "Job Board/Recruitment",
+      "primary": "#0369A1",
+      "secondary": "#0EA5E9",
+      "accent": "#16A34A",
+      "background": "#F0F9FF",
+      "foreground": "#0C4A6E",
+      "card": "#FFFFFF",
+      "border": "#BAE6FD"
+    },
+    {
+      "no": 48,
+      "product": "市集電商 (線上選物市集 )",
+      "enProduct": "Marketplace (P2P)",
+      "primary": "#7C3AED",
+      "secondary": "#A78BFA",
+      "accent": "#16A34A",
+      "background": "#FAF5FF",
+      "foreground": "#4C1D95",
+      "card": "#FFFFFF",
+      "border": "#DDD6FE"
+    },
+    {
+      "no": 49,
+      "product": "智慧物流車隊 外送服務",
+      "enProduct": "Logistics/Delivery",
+      "primary": "#2563EB",
+      "secondary": "#3B82F6",
+      "accent": "#EA580C",
+      "background": "#EFF6FF",
+      "foreground": "#1E40AF",
+      "card": "#FFFFFF",
+      "border": "#BFDBFE"
+    },
+    {
+      "no": 50,
+      "product": "智慧農業植栽養護",
+      "enProduct": "Agriculture/Farm Tech",
+      "primary": "#15803D",
+      "secondary": "#22C55E",
+      "accent": "#A16207",
+      "background": "#F0FDF4",
+      "foreground": "#14532D",
+      "card": "#FFFFFF",
+      "border": "#BBF7D0"
+    },
+    {
+      "no": 51,
+      "product": "營建工程管理 建築空間",
+      "enProduct": "Construction/Architecture",
+      "primary": "#64748B",
+      "secondary": "#94A3B8",
+      "accent": "#EA580C",
+      "background": "#F8FAFC",
+      "foreground": "#334155",
+      "card": "#FFFFFF",
+      "border": "#E2E8F0"
+    },
+    {
+      "no": 52,
+      "product": "智慧車聯網中控",
+      "enProduct": "Automotive/Car Dealership",
+      "primary": "#1E293B",
+      "secondary": "#334155",
+      "accent": "#DC2626",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E2E8F0"
+    },
+    {
+      "no": 53,
+      "product": "商業攝影視覺 工作室",
+      "enProduct": "Photography Studio",
+      "primary": "#18181B",
+      "secondary": "#27272A",
+      "accent": "#F8FAFC",
+      "background": "#000000",
+      "foreground": "#FAFAFA",
+      "card": "#0C0C0C",
+      "border": "#3F3F46"
+    },
+    {
+      "no": 54,
+      "product": "共享辦公空間 芳療水療中心",
+      "enProduct": "Coworking Space",
+      "primary": "#F59E0B",
+      "secondary": "#FBBF24",
+      "accent": "#2563EB",
+      "background": "#FFFBEB",
+      "foreground": "#78350F",
+      "card": "#FFFFFF",
+      "border": "#FDE68A"
+    },
+    {
+      "no": 55,
+      "product": "居家 服務 ( ) (居家 ( ))",
+      "enProduct": "Home Services (Plumber/Electrician)",
+      "primary": "#1E40AF",
+      "secondary": "#3B82F6",
+      "accent": "#EA580C",
+      "background": "#EFF6FF",
+      "foreground": "#1E3A8A",
+      "card": "#FFFFFF",
+      "border": "#BFDBFE"
+    },
+    {
+      "no": 56,
+      "product": "親子托育",
+      "enProduct": "Childcare/Daycare",
+      "primary": "#F472B6",
+      "secondary": "#FBCFE8",
+      "accent": "#16A34A",
+      "background": "#FDF2F8",
+      "foreground": "#9D174D",
+      "card": "#FFFFFF",
+      "border": "#FCE7F3"
+    },
+    {
+      "no": 57,
+      "product": "銀髮樂齡 照護 長照服務",
+      "enProduct": "Senior Care/Elderly",
+      "primary": "#0369A1",
+      "secondary": "#38BDF8",
+      "accent": "#16A34A",
+      "background": "#F0F9FF",
+      "foreground": "#0C4A6E",
+      "card": "#FFFFFF",
+      "border": "#E0F2FE"
+    },
+    {
+      "no": 58,
+      "product": "智慧醫療院所 診所",
+      "enProduct": "Medical Clinic",
+      "primary": "#0891B2",
+      "secondary": "#22D3EE",
+      "accent": "#16A34A",
+      "background": "#F0FDFA",
+      "foreground": "#134E4A",
+      "card": "#FFFFFF",
+      "border": "#CCFBF1"
+    },
+    {
+      "no": 59,
+      "product": "智慧藥局管理",
+      "enProduct": "Pharmacy/Drug Store",
+      "primary": "#15803D",
+      "secondary": "#22C55E",
+      "accent": "#0369A1",
+      "background": "#F0FDF4",
+      "foreground": "#14532D",
+      "card": "#FFFFFF",
+      "border": "#BBF7D0"
+    },
+    {
+      "no": 60,
+      "product": "牙科美學診所",
+      "enProduct": "Dental Practice",
+      "primary": "#0EA5E9",
+      "secondary": "#38BDF8",
+      "accent": "#0EA5E9",
+      "background": "#F0F9FF",
+      "foreground": "#0C4A6E",
+      "card": "#FFFFFF",
+      "border": "#BAE6FD"
+    },
+    {
+      "no": 61,
+      "product": "寵物醫療照護 診所",
+      "enProduct": "Veterinary Clinic",
+      "primary": "#0D9488",
+      "secondary": "#14B8A6",
+      "accent": "#EA580C",
+      "background": "#F0FDFA",
+      "foreground": "#134E4A",
+      "card": "#FFFFFF",
+      "border": "#99F6E4"
+    },
+    {
+      "no": 62,
+      "product": "植物養護",
+      "enProduct": "Florist/Plant Shop",
+      "primary": "#15803D",
+      "secondary": "#22C55E",
+      "accent": "#EC4899",
+      "background": "#F0FDF4",
+      "foreground": "#14532D",
+      "card": "#FFFFFF",
+      "border": "#BBF7D0"
+    },
+    {
+      "no": 63,
+      "product": "通用行動應用 #63",
+      "enProduct": "Bakery/Cafe",
+      "primary": "#92400E",
+      "secondary": "#B45309",
+      "accent": "#92400E",
+      "background": "#FEF3C7",
+      "foreground": "#78350F",
+      "card": "#FFFFFF",
+      "border": "#FDE68A"
+    },
+    {
+      "no": 64,
+      "product": "通用行動應用 #64",
+      "enProduct": "Brewery/Winery",
+      "primary": "#7C2D12",
+      "secondary": "#B91C1C",
+      "accent": "#A16207",
+      "background": "#FEF2F2",
+      "foreground": "#450A0A",
+      "card": "#FFFFFF",
+      "border": "#FECACA"
+    },
+    {
+      "no": 65,
+      "product": "通用行動應用 #65",
+      "enProduct": "Airline",
+      "primary": "#1E3A8A",
+      "secondary": "#3B82F6",
+      "accent": "#EA580C",
+      "background": "#EFF6FF",
+      "foreground": "#1E40AF",
+      "card": "#FFFFFF",
+      "border": "#BFDBFE"
+    },
+    {
+      "no": 66,
+      "product": "新聞媒體 平台",
+      "enProduct": "News/Media Platform",
+      "primary": "#DC2626",
+      "secondary": "#EF4444",
+      "accent": "#1E40AF",
+      "background": "#FEF2F2",
+      "foreground": "#450A0A",
+      "card": "#FFFFFF",
+      "border": "#FECACA"
+    },
+    {
+      "no": 67,
+      "product": "數位雜誌 專欄部落格",
+      "enProduct": "Magazine/Blog",
+      "primary": "#18181B",
+      "secondary": "#3F3F46",
+      "accent": "#EC4899",
+      "background": "#FAFAFA",
+      "foreground": "#09090B",
+      "card": "#FFFFFF",
+      "border": "#E4E4E7"
+    },
+    {
+      "no": 68,
+      "product": "平台",
+      "enProduct": "Freelancer Platform",
+      "primary": "#6366F1",
+      "secondary": "#818CF8",
+      "accent": "#16A34A",
+      "background": "#EEF2FF",
+      "foreground": "#312E81",
+      "card": "#FFFFFF",
+      "border": "#C7D2FE"
+    },
+    {
+      "no": 69,
+      "product": "數位行銷 創意設計事務所",
+      "enProduct": "Marketing Agency",
+      "primary": "#EC4899",
+      "secondary": "#F472B6",
+      "accent": "#0891B2",
+      "background": "#FDF2F8",
+      "foreground": "#831843",
+      "card": "#FFFFFF",
+      "border": "#FBCFE8"
+    },
+    {
+      "no": 70,
+      "product": "活動票務 管理系統",
+      "enProduct": "Event Management",
+      "primary": "#7C3AED",
+      "secondary": "#A78BFA",
+      "accent": "#EA580C",
+      "background": "#FAF5FF",
+      "foreground": "#4C1D95",
+      "card": "#FFFFFF",
+      "border": "#DDD6FE"
+    },
+    {
+      "no": 71,
+      "product": "互動社群",
+      "enProduct": "Membership/Community",
+      "primary": "#7C3AED",
+      "secondary": "#A78BFA",
+      "accent": "#16A34A",
+      "background": "#FAF5FF",
+      "foreground": "#4C1D95",
+      "card": "#FFFFFF",
+      "border": "#DDD6FE"
+    },
+    {
+      "no": 72,
+      "product": "平台",
+      "enProduct": "Newsletter Platform",
+      "primary": "#0369A1",
+      "secondary": "#0EA5E9",
+      "accent": "#EA580C",
+      "background": "#F0F9FF",
+      "foreground": "#0C4A6E",
+      "card": "#FFFFFF",
+      "border": "#BAE6FD"
+    },
+    {
+      "no": 73,
+      "product": "通用行動應用 #73",
+      "enProduct": "Digital Products/Downloads",
+      "primary": "#6366F1",
+      "secondary": "#818CF8",
+      "accent": "#16A34A",
+      "background": "#EEF2FF",
+      "foreground": "#312E81",
+      "card": "#FFFFFF",
+      "border": "#C7D2FE"
+    },
+    {
+      "no": 74,
+      "product": "通用行動應用 #74",
+      "enProduct": "Church/Religious Organization",
+      "primary": "#7C3AED",
+      "secondary": "#A78BFA",
+      "accent": "#A16207",
+      "background": "#FAF5FF",
+      "foreground": "#4C1D95",
+      "card": "#FFFFFF",
+      "border": "#DDD6FE"
+    },
+    {
+      "no": 75,
+      "product": "體育賽事",
+      "enProduct": "Sports Team/Club",
+      "primary": "#DC2626",
+      "secondary": "#EF4444",
+      "accent": "#DC2626",
+      "background": "#FEF2F2",
+      "foreground": "#7F1D1D",
+      "card": "#FFFFFF",
+      "border": "#FECACA"
+    },
+    {
+      "no": 76,
+      "product": "通用行動應用 #76",
+      "enProduct": "Museum/Gallery",
+      "primary": "#18181B",
+      "secondary": "#27272A",
+      "accent": "#18181B",
+      "background": "#FAFAFA",
+      "foreground": "#09090B",
+      "card": "#FFFFFF",
+      "border": "#E4E4E7"
+    },
+    {
+      "no": 77,
+      "product": "通用行動應用 #77",
+      "enProduct": "Theater/Cinema",
+      "primary": "#1E1B4B",
+      "secondary": "#312E81",
+      "accent": "#CA8A04",
+      "background": "#0F0F23",
+      "foreground": "#F8FAFC",
+      "card": "#1B1B30",
+      "border": "#4338CA"
+    },
+    {
+      "no": 78,
+      "product": "行動應用",
+      "enProduct": "Language Learning App",
+      "primary": "#4F46E5",
+      "secondary": "#818CF8",
+      "accent": "#16A34A",
+      "background": "#EEF2FF",
+      "foreground": "#312E81",
+      "card": "#FFFFFF",
+      "border": "#C7D2FE"
+    },
+    {
+      "no": 79,
+      "product": "通用行動應用 #79",
+      "enProduct": "Coding Bootcamp",
+      "primary": "#0F172A",
+      "secondary": "#1E293B",
+      "accent": "#22C55E",
+      "background": "#020617",
+      "foreground": "#F8FAFC",
+      "card": "#0E1223",
+      "border": "#334155"
+    },
+    {
+      "no": 80,
+      "product": "資安防護與威脅監控",
+      "enProduct": "Cybersecurity Platform",
+      "primary": "#00FF41",
+      "secondary": "#0D0D0D",
+      "accent": "#FF3333",
+      "background": "#000000",
+      "foreground": "#E0E0E0",
+      "card": "#0C130E",
+      "border": "#1F1F1F"
+    },
+    {
+      "no": 81,
+      "product": "開發者工具與工程系統",
+      "enProduct": "Developer Tool / IDE",
+      "primary": "#1E293B",
+      "secondary": "#334155",
+      "accent": "#22C55E",
+      "background": "#0F172A",
+      "foreground": "#F8FAFC",
+      "card": "#1B2336",
+      "border": "#475569"
+    },
+    {
+      "no": 82,
+      "product": "生技研發",
+      "enProduct": "Biotech / Life Sciences",
+      "primary": "#0EA5E9",
+      "secondary": "#0284C7",
+      "accent": "#059669",
+      "background": "#F0F9FF",
+      "foreground": "#0C4A6E",
+      "card": "#FFFFFF",
+      "border": "#BAE6FD"
+    },
+    {
+      "no": 83,
+      "product": "芳療水療中心 芳療水療中心",
+      "enProduct": "Space Tech / Aerospace",
+      "primary": "#F8FAFC",
+      "secondary": "#94A3B8",
+      "accent": "#3B82F6",
+      "background": "#0B0B10",
+      "foreground": "#F8FAFC",
+      "card": "#1E1E23",
+      "border": "#1E293B"
+    },
+    {
+      "no": 84,
+      "product": "建築空間 室內設計",
+      "enProduct": "Architecture / Interior",
+      "primary": "#171717",
+      "secondary": "#404040",
+      "accent": "#A16207",
+      "background": "#FFFFFF",
+      "foreground": "#171717",
+      "card": "#FFFFFF",
+      "border": "#E5E5E5"
+    },
+    {
+      "no": 85,
+      "product": "量子運算分析 高速運算",
+      "enProduct": "Quantum Computing Interface",
+      "primary": "#00FFFF",
+      "secondary": "#7B61FF",
+      "accent": "#FF00FF",
+      "background": "#050510",
+      "foreground": "#E0E0FF",
+      "card": "#101823",
+      "border": "#333344"
+    },
+    {
+      "no": 86,
+      "product": "行動應用",
+      "enProduct": "Biohacking / Longevity App",
+      "primary": "#FF4D4D",
+      "secondary": "#4D94FF",
+      "accent": "#059669",
+      "background": "#F5F5F7",
+      "foreground": "#1C1C1E",
+      "card": "#FFFFFF",
+      "border": "#E5E5EA"
+    },
+    {
+      "no": 87,
+      "product": "自動駕駛 無人機巡檢系統 車隊管理",
+      "enProduct": "Autonomous Drone Fleet Manager",
+      "primary": "#00FF41",
+      "secondary": "#008F11",
+      "accent": "#FF3333",
+      "background": "#0D1117",
+      "foreground": "#E6EDF3",
+      "card": "#182424",
+      "border": "#30363D"
+    },
+    {
+      "no": 88,
+      "product": "平台",
+      "enProduct": "Generative Art Platform",
+      "primary": "#18181B",
+      "secondary": "#3F3F46",
+      "accent": "#EC4899",
+      "background": "#FAFAFA",
+      "foreground": "#09090B",
+      "card": "#FFFFFF",
+      "border": "#E4E4E7"
+    },
+    {
+      "no": 89,
+      "product": "芳療水療中心 高速運算 行動應用",
+      "enProduct": "Spatial Computing OS / App",
+      "primary": "#FFFFFF",
+      "secondary": "#E5E5E5",
+      "accent": "#FFFFFF",
+      "background": "#888888",
+      "foreground": "#000000",
+      "card": "#999999",
+      "border": "#CCCCCC"
+    },
+    {
+      "no": 90,
+      "product": "綠能電力監控",
+      "enProduct": "Sustainable Energy / Climate Tech",
+      "primary": "#059669",
+      "secondary": "#10B981",
+      "accent": "#059669",
+      "background": "#ECFDF5",
+      "foreground": "#064E3B",
+      "card": "#FFFFFF",
+      "border": "#A7F3D0"
+    },
+    {
+      "no": 91,
+      "product": "個人 金融理財 追蹤器",
+      "enProduct": "Personal Finance Tracker",
+      "primary": "#1E40AF",
+      "secondary": "#3B82F6",
+      "accent": "#059669",
+      "background": "#0F172A",
+      "foreground": "#FFFFFF",
+      "card": "#192134",
+      "border": "rgba(255,255,255,0.08)"
+    },
+    {
+      "no": 92,
+      "product": "& 行動應用",
+      "enProduct": "Chat & Messaging App",
+      "primary": "#2563EB",
+      "secondary": "#6366F1",
+      "accent": "#059669",
+      "background": "#FFFFFF",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E4ECFC"
+    },
+    {
+      "no": 93,
+      "product": "& 行動應用",
+      "enProduct": "Notes & Writing App",
+      "primary": "#78716C",
+      "secondary": "#A8A29E",
+      "accent": "#D97706",
+      "background": "#FFFBEB",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#EEEDED"
+    },
+    {
+      "no": 94,
+      "product": "每日習慣養成 追蹤器",
+      "enProduct": "Habit Tracker",
+      "primary": "#D97706",
+      "secondary": "#F59E0B",
+      "accent": "#059669",
+      "background": "#FFFBEB",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#FAEEE1"
+    },
+    {
+      "no": 95,
+      "product": "美食餐飲 外送服務",
+      "enProduct": "Food Delivery / On-Demand",
+      "primary": "#EA580C",
+      "secondary": "#F97316",
+      "accent": "#2563EB",
+      "background": "#FFF7ED",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#FCEAE1"
+    },
+    {
+      "no": 96,
+      "product": "通用行動應用 #96",
+      "enProduct": "Ride Hailing / Transportation",
+      "primary": "#1E293B",
+      "secondary": "#334155",
+      "accent": "#2563EB",
+      "background": "#0F172A",
+      "foreground": "#FFFFFF",
+      "card": "#192134",
+      "border": "rgba(255,255,255,0.08)"
+    },
+    {
+      "no": 97,
+      "product": "料理食譜社群 & 料理烘焙 行動應用",
+      "enProduct": "Recipe & Cooking App",
+      "primary": "#9A3412",
+      "secondary": "#C2410C",
+      "accent": "#059669",
+      "background": "#FFFBEB",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#F2E6E2"
+    },
+    {
+      "no": 98,
+      "product": "正念冥想音療 &",
+      "enProduct": "Meditation & Mindfulness",
+      "primary": "#7C3AED",
+      "secondary": "#8B5CF6",
+      "accent": "#059669",
+      "background": "#FAF5FF",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#EFE7FC"
+    },
+    {
+      "no": 99,
+      "product": "氣象環境監測 行動應用",
+      "enProduct": "Weather App",
+      "primary": "#0284C7",
+      "secondary": "#0EA5E9",
+      "accent": "#F59E0B",
+      "background": "#F0F9FF",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E0F0F8"
+    },
+    {
+      "no": 100,
+      "product": "心情日記 & 行動應用",
+      "enProduct": "Diary & Journal App",
+      "primary": "#92400E",
+      "secondary": "#A16207",
+      "accent": "#6366F1",
+      "background": "#FFFBEB",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#F1E8E2"
+    },
+    {
+      "no": 101,
+      "product": "客戶關係管理 & 管理系統",
+      "enProduct": "CRM & Client Management",
+      "primary": "#2563EB",
+      "secondary": "#3B82F6",
+      "accent": "#059669",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E4ECFC"
+    },
+    {
+      "no": 102,
+      "product": "& 股市看盤 管理系統",
+      "enProduct": "Inventory & Stock Management",
+      "primary": "#334155",
+      "secondary": "#475569",
+      "accent": "#059669",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E6E8EA"
+    },
+    {
+      "no": 103,
+      "product": "& 工具",
+      "enProduct": "Flashcard & Study Tool",
+      "primary": "#7C3AED",
+      "secondary": "#8B5CF6",
+      "accent": "#059669",
+      "background": "#FAF5FF",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#EFE7FC"
+    },
+    {
+      "no": 104,
+      "product": "預約系統 & 行動應用 行動應用",
+      "enProduct": "Booking & Appointment App",
+      "primary": "#0284C7",
+      "secondary": "#0EA5E9",
+      "accent": "#059669",
+      "background": "#F0F9FF",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E0F0F8"
+    },
+    {
+      "no": 105,
+      "product": "發票帳務 & 計費系統 工具",
+      "enProduct": "Invoice & Billing Tool",
+      "primary": "#1E3A5F",
+      "secondary": "#2563EB",
+      "accent": "#059669",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E4E7EB"
+    },
+    {
+      "no": 106,
+      "product": "&",
+      "enProduct": "Grocery & Shopping List",
+      "primary": "#059669",
+      "secondary": "#10B981",
+      "accent": "#D97706",
+      "background": "#ECFDF5",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E1F2ED"
+    },
+    {
+      "no": 107,
+      "product": "&",
+      "enProduct": "Timer & Pomodoro",
+      "primary": "#DC2626",
+      "secondary": "#EF4444",
+      "accent": "#059669",
+      "background": "#0F172A",
+      "foreground": "#FFFFFF",
+      "card": "#192134",
+      "border": "rgba(255,255,255,0.08)"
+    },
+    {
+      "no": 108,
+      "product": "& 追蹤器",
+      "enProduct": "Parenting & Baby Tracker",
+      "primary": "#EC4899",
+      "secondary": "#F472B6",
+      "accent": "#0284C7",
+      "background": "#FDF2F8",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#FCE9F2"
+    },
+    {
+      "no": 109,
+      "product": "&",
+      "enProduct": "Scanner & Document Manager",
+      "primary": "#1E293B",
+      "secondary": "#334155",
+      "accent": "#2563EB",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E4E5E7"
+    },
+    {
+      "no": 110,
+      "product": "行事曆 & 行動應用",
+      "enProduct": "Calendar & Scheduling App",
+      "primary": "#2563EB",
+      "secondary": "#3B82F6",
+      "accent": "#059669",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E4ECFC"
+    },
+    {
+      "no": 111,
+      "product": "密碼金庫",
+      "enProduct": "Password Manager",
+      "primary": "#1E3A5F",
+      "secondary": "#334155",
+      "accent": "#059669",
+      "background": "#0F172A",
+      "foreground": "#FFFFFF",
+      "card": "#192134",
+      "border": "rgba(255,255,255,0.08)"
+    },
+    {
+      "no": 112,
+      "product": "通用行動應用 #112",
+      "enProduct": "Expense Splitter / Bill Split",
+      "primary": "#059669",
+      "secondary": "#10B981",
+      "accent": "#DC2626",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E1F2ED"
+    },
+    {
+      "no": 113,
+      "product": "&",
+      "enProduct": "Voice Recorder & Memo",
+      "primary": "#DC2626",
+      "secondary": "#EF4444",
+      "accent": "#2563EB",
+      "background": "#FFFFFF",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#FAE4E4"
+    },
+    {
+      "no": 114,
+      "product": "&",
+      "enProduct": "Bookmark & Read-Later",
+      "primary": "#D97706",
+      "secondary": "#F59E0B",
+      "accent": "#2563EB",
+      "background": "#FFFBEB",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#FAEEE1"
+    },
+    {
+      "no": 115,
+      "product": "行動應用",
+      "enProduct": "Translator App",
+      "primary": "#2563EB",
+      "secondary": "#0891B2",
+      "accent": "#EA580C",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E4ECFC"
+    },
+    {
+      "no": 116,
+      "product": "&",
+      "enProduct": "Calculator & Unit Converter",
+      "primary": "#EA580C",
+      "secondary": "#F97316",
+      "accent": "#2563EB",
+      "background": "#1C1917",
+      "foreground": "#FFFFFF",
+      "card": "#262321",
+      "border": "rgba(255,255,255,0.08)"
+    },
+    {
+      "no": 117,
+      "product": "&",
+      "enProduct": "Alarm & World Clock",
+      "primary": "#D97706",
+      "secondary": "#F59E0B",
+      "accent": "#6366F1",
+      "background": "#0F172A",
+      "foreground": "#FFFFFF",
+      "card": "#192134",
+      "border": "rgba(255,255,255,0.08)"
+    },
+    {
+      "no": 118,
+      "product": "&",
+      "enProduct": "File Manager & Transfer",
+      "primary": "#2563EB",
+      "secondary": "#3B82F6",
+      "accent": "#D97706",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E4ECFC"
+    },
+    {
+      "no": 119,
+      "product": "電子報行銷",
+      "enProduct": "Email Client",
+      "primary": "#2563EB",
+      "secondary": "#3B82F6",
+      "accent": "#DC2626",
+      "background": "#FFFFFF",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E4ECFC"
+    },
+    {
+      "no": 120,
+      "product": "通用行動應用 #120",
+      "enProduct": "Casual Puzzle Game",
+      "primary": "#EC4899",
+      "secondary": "#8B5CF6",
+      "accent": "#F59E0B",
+      "background": "#FDF2F8",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#FCE9F2"
+    },
+    {
+      "no": 121,
+      "product": "&",
+      "enProduct": "Trivia & Quiz Game",
+      "primary": "#2563EB",
+      "secondary": "#7C3AED",
+      "accent": "#F59E0B",
+      "background": "#EFF6FF",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E4ECFC"
+    },
+    {
+      "no": 122,
+      "product": "&",
+      "enProduct": "Card & Board Game",
+      "primary": "#15803D",
+      "secondary": "#166534",
+      "accent": "#D97706",
+      "background": "#0F172A",
+      "foreground": "#FFFFFF",
+      "card": "#192134",
+      "border": "rgba(255,255,255,0.08)"
+    },
+    {
+      "no": 123,
+      "product": "&",
+      "enProduct": "Idle & Clicker Game",
+      "primary": "#D97706",
+      "secondary": "#F59E0B",
+      "accent": "#7C3AED",
+      "background": "#FFFBEB",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#FAEEE1"
+    },
+    {
+      "no": 124,
+      "product": "&",
+      "enProduct": "Word & Crossword Game",
+      "primary": "#15803D",
+      "secondary": "#059669",
+      "accent": "#D97706",
+      "background": "#FFFFFF",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E2EFE7"
+    },
+    {
+      "no": 125,
+      "product": "&",
+      "enProduct": "Arcade & Retro Game",
+      "primary": "#DC2626",
+      "secondary": "#2563EB",
+      "accent": "#22C55E",
+      "background": "#0F172A",
+      "foreground": "#FFFFFF",
+      "card": "#192134",
+      "border": "rgba(255,255,255,0.08)"
+    },
+    {
+      "no": 126,
+      "product": "影像相片 編輯器 &",
+      "enProduct": "Photo Editor & Filters",
+      "primary": "#7C3AED",
+      "secondary": "#6366F1",
+      "accent": "#0891B2",
+      "background": "#0F172A",
+      "foreground": "#FFFFFF",
+      "card": "#192134",
+      "border": "rgba(255,255,255,0.08)"
+    },
+    {
+      "no": 127,
+      "product": "影音創作串流 編輯器",
+      "enProduct": "Short Video Editor",
+      "primary": "#EC4899",
+      "secondary": "#DB2777",
+      "accent": "#2563EB",
+      "background": "#0F172A",
+      "foreground": "#FFFFFF",
+      "card": "#192134",
+      "border": "rgba(255,255,255,0.08)"
+    },
+    {
+      "no": 128,
+      "product": "&",
+      "enProduct": "Drawing & Sketching Canvas",
+      "primary": "#7C3AED",
+      "secondary": "#8B5CF6",
+      "accent": "#0891B2",
+      "background": "#1C1917",
+      "foreground": "#FFFFFF",
+      "card": "#262321",
+      "border": "rgba(255,255,255,0.08)"
+    },
+    {
+      "no": 129,
+      "product": "音樂串流平台 &",
+      "enProduct": "Music Creation & Beat Maker",
+      "primary": "#7C3AED",
+      "secondary": "#6366F1",
+      "accent": "#22C55E",
+      "background": "#0F172A",
+      "foreground": "#FFFFFF",
+      "card": "#192134",
+      "border": "rgba(255,255,255,0.08)"
+    },
+    {
+      "no": 130,
+      "product": "&",
+      "enProduct": "Meme & Sticker Maker",
+      "primary": "#EC4899",
+      "secondary": "#F59E0B",
+      "accent": "#2563EB",
+      "background": "#FFFFFF",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#FCE9F2"
+    },
+    {
+      "no": 131,
+      "product": "影像相片 &",
+      "enProduct": "AI Photo & Avatar Generator",
+      "primary": "#7C3AED",
+      "secondary": "#6366F1",
+      "accent": "#EC4899",
+      "background": "#FAF5FF",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#EFE7FC"
+    },
+    {
+      "no": 132,
+      "product": "通用行動應用 #132",
+      "enProduct": "Link-in-Bio Page Builder",
+      "primary": "#2563EB",
+      "secondary": "#7C3AED",
+      "accent": "#EC4899",
+      "background": "#FFFFFF",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E4ECFC"
+    },
+    {
+      "no": 133,
+      "product": "&",
+      "enProduct": "Wardrobe & Outfit Planner",
+      "primary": "#BE185D",
+      "secondary": "#EC4899",
+      "accent": "#D97706",
+      "background": "#FDF2F8",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#F7E3EB"
+    },
+    {
+      "no": 134,
+      "product": "植物養護 照護 追蹤器",
+      "enProduct": "Plant Care Tracker",
+      "primary": "#15803D",
+      "secondary": "#059669",
+      "accent": "#D97706",
+      "background": "#F0FDF4",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E2EFE7"
+    },
+    {
+      "no": 135,
+      "product": "& 追蹤器",
+      "enProduct": "Book & Reading Tracker",
+      "primary": "#78716C",
+      "secondary": "#92400E",
+      "accent": "#D97706",
+      "background": "#FFFBEB",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#EEEDED"
+    },
+    {
+      "no": 136,
+      "product": "& 行動應用",
+      "enProduct": "Couple & Relationship App",
+      "primary": "#BE185D",
+      "secondary": "#EC4899",
+      "accent": "#DC2626",
+      "background": "#FDF2F8",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#F7E3EB"
+    },
+    {
+      "no": 137,
+      "product": "行事曆 &",
+      "enProduct": "Family Calendar & Chores",
+      "primary": "#2563EB",
+      "secondary": "#059669",
+      "accent": "#D97706",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E4ECFC"
+    },
+    {
+      "no": 138,
+      "product": "情緒追蹤 追蹤器",
+      "enProduct": "Mood Tracker",
+      "primary": "#7C3AED",
+      "secondary": "#6366F1",
+      "accent": "#D97706",
+      "background": "#FAF5FF",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#EFE7FC"
+    },
+    {
+      "no": 139,
+      "product": "&",
+      "enProduct": "Gift & Wishlist",
+      "primary": "#DC2626",
+      "secondary": "#D97706",
+      "accent": "#EC4899",
+      "background": "#FFF1F2",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#FAE4E4"
+    },
+    {
+      "no": 140,
+      "product": "&",
+      "enProduct": "Running & Cycling GPS",
+      "primary": "#EA580C",
+      "secondary": "#F97316",
+      "accent": "#059669",
+      "background": "#0F172A",
+      "foreground": "#FFFFFF",
+      "card": "#192134",
+      "border": "rgba(255,255,255,0.08)"
+    },
+    {
+      "no": 141,
+      "product": "瑜珈皮拉提斯 &",
+      "enProduct": "Yoga & Stretching Guide",
+      "primary": "#6B7280",
+      "secondary": "#78716C",
+      "accent": "#0891B2",
+      "background": "#F5F5F0",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#EDEEEF"
+    },
+    {
+      "no": 142,
+      "product": "睡眠監測 追蹤器",
+      "enProduct": "Sleep Tracker",
+      "primary": "#4338CA",
+      "secondary": "#6366F1",
+      "accent": "#7C3AED",
+      "background": "#0F172A",
+      "foreground": "#FFFFFF",
+      "card": "#192134",
+      "border": "rgba(255,255,255,0.08)"
+    },
+    {
+      "no": 143,
+      "product": "& 營養飲食",
+      "enProduct": "Calorie & Nutrition Counter",
+      "primary": "#059669",
+      "secondary": "#10B981",
+      "accent": "#EA580C",
+      "background": "#ECFDF5",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E1F2ED"
+    },
+    {
+      "no": 144,
+      "product": "& 追蹤器",
+      "enProduct": "Period & Cycle Tracker",
+      "primary": "#BE185D",
+      "secondary": "#EC4899",
+      "accent": "#7C3AED",
+      "background": "#FDF2F8",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#F7E3EB"
+    },
+    {
+      "no": 145,
+      "product": "用藥管理 & 提醒助手",
+      "enProduct": "Medication & Pill Reminder",
+      "primary": "#0284C7",
+      "secondary": "#0891B2",
+      "accent": "#DC2626",
+      "background": "#F0F9FF",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E0F0F8"
+    },
+    {
+      "no": 146,
+      "product": "& 提醒助手",
+      "enProduct": "Water & Hydration Reminder",
+      "primary": "#0284C7",
+      "secondary": "#06B6D4",
+      "accent": "#0891B2",
+      "background": "#F0F9FF",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E0F0F8"
+    },
+    {
+      "no": 147,
+      "product": "&",
+      "enProduct": "Fasting & Intermittent Timer",
+      "primary": "#6366F1",
+      "secondary": "#4338CA",
+      "accent": "#059669",
+      "background": "#0F172A",
+      "foreground": "#FFFFFF",
+      "card": "#192134",
+      "border": "rgba(255,255,255,0.08)"
+    },
+    {
+      "no": 148,
+      "product": "互動社群",
+      "enProduct": "Anonymous Community / Confession",
+      "primary": "#475569",
+      "secondary": "#334155",
+      "accent": "#0891B2",
+      "background": "#0F172A",
+      "foreground": "#FFFFFF",
+      "card": "#192134",
+      "border": "rgba(255,255,255,0.08)"
+    },
+    {
+      "no": 149,
+      "product": "&",
+      "enProduct": "Local Events & Discovery",
+      "primary": "#EA580C",
+      "secondary": "#F97316",
+      "accent": "#2563EB",
+      "background": "#FFF7ED",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#FCEAE1"
+    },
+    {
+      "no": 150,
+      "product": "共享辦公空間",
+      "enProduct": "Study Together / Virtual Coworking",
+      "primary": "#2563EB",
+      "secondary": "#3B82F6",
+      "accent": "#059669",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E4ECFC"
+    },
+    {
+      "no": 151,
+      "product": "&",
+      "enProduct": "Coding Challenge & Practice",
+      "primary": "#22C55E",
+      "secondary": "#059669",
+      "accent": "#D97706",
+      "background": "#0F172A",
+      "foreground": "#FFFFFF",
+      "card": "#192134",
+      "border": "rgba(255,255,255,0.08)"
+    },
+    {
+      "no": 152,
+      "product": "( & ) ( ( & ))",
+      "enProduct": "Kids Learning (ABC & Math)",
+      "primary": "#2563EB",
+      "secondary": "#F59E0B",
+      "accent": "#EC4899",
+      "background": "#EFF6FF",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E4ECFC"
+    },
+    {
+      "no": 153,
+      "product": "音樂串流平台",
+      "enProduct": "Music Instrument Learning",
+      "primary": "#DC2626",
+      "secondary": "#9A3412",
+      "accent": "#D97706",
+      "background": "#FFFBEB",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#FAE4E4"
+    },
+    {
+      "no": 154,
+      "product": "智慧停車",
+      "enProduct": "Parking Finder",
+      "primary": "#2563EB",
+      "secondary": "#059669",
+      "accent": "#DC2626",
+      "background": "#F0F9FF",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E4ECFC"
+    },
+    {
+      "no": 155,
+      "product": "通用行動應用 #155",
+      "enProduct": "Public Transit Guide",
+      "primary": "#2563EB",
+      "secondary": "#0891B2",
+      "accent": "#EA580C",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E4ECFC"
+    },
+    {
+      "no": 156,
+      "product": "通用行動應用 #156",
+      "enProduct": "Road Trip Planner",
+      "primary": "#EA580C",
+      "secondary": "#0891B2",
+      "accent": "#D97706",
+      "background": "#FFF7ED",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#FCEAE1"
+    },
+    {
+      "no": 157,
+      "product": "隱私網路 & 工具",
+      "enProduct": "VPN & Privacy Tool",
+      "primary": "#1E3A5F",
+      "secondary": "#334155",
+      "accent": "#22C55E",
+      "background": "#0F172A",
+      "foreground": "#FFFFFF",
+      "card": "#192134",
+      "border": "rgba(255,255,255,0.08)"
+    },
+    {
+      "no": 158,
+      "product": "&",
+      "enProduct": "Emergency SOS & Safety",
+      "primary": "#DC2626",
+      "secondary": "#EF4444",
+      "accent": "#2563EB",
+      "background": "#FFF1F2",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#FAE4E4"
+    },
+    {
+      "no": 159,
+      "product": "& 行動應用",
+      "enProduct": "Wallpaper & Theme App",
+      "primary": "#7C3AED",
+      "secondary": "#EC4899",
+      "accent": "#2563EB",
+      "background": "#FAF5FF",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#EFE7FC"
+    },
+    {
+      "no": 160,
+      "product": "&",
+      "enProduct": "White Noise & Ambient Sound",
+      "primary": "#475569",
+      "secondary": "#334155",
+      "accent": "#4338CA",
+      "background": "#0F172A",
+      "foreground": "#FFFFFF",
+      "card": "#192134",
+      "border": "rgba(255,255,255,0.08)"
+    },
+    {
+      "no": 161,
+      "product": "居家 & 室內設計",
+      "enProduct": "Home Decoration & Interior Design",
+      "primary": "#78716C",
+      "secondary": "#A8A29E",
+      "accent": "#D97706",
+      "background": "#FAF5F2",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#EEEDED"
+    },
+    {
+      "no": 162,
+      "product": "通用行動應用 #162",
+      "enProduct": "Academic Journal / Scholarly Publishing",
+      "primary": "#1E3A5F",
+      "secondary": "#334155",
+      "accent": "#B45309",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#CBD5E1"
+    },
+    {
+      "no": 163,
+      "product": "開發者",
+      "enProduct": "API Developer Portal",
+      "primary": "#0F172A",
+      "secondary": "#1E293B",
+      "accent": "#22C55E",
+      "background": "#020617",
+      "foreground": "#F8FAFC",
+      "card": "#0E1223",
+      "border": "#334155"
+    },
+    {
+      "no": 164,
+      "product": "通用行動應用 #164",
+      "enProduct": "Forum / Discussion Board",
+      "primary": "#475569",
+      "secondary": "#64748B",
+      "accent": "#2563EB",
+      "background": "#F8FAFC",
+      "foreground": "#1E293B",
+      "card": "#FFFFFF",
+      "border": "#E2E8F0"
+    },
+    {
+      "no": 165,
+      "product": "通用行動應用 #165",
+      "enProduct": "Directory / Listing Site",
+      "primary": "#059669",
+      "secondary": "#10B981",
+      "accent": "#D97706",
+      "background": "#ECFDF5",
+      "foreground": "#064E3B",
+      "card": "#FFFFFF",
+      "border": "#A7F3D0"
+    },
+    {
+      "no": 166,
+      "product": "管理系統",
+      "enProduct": "Status Page / Incident Management",
+      "primary": "#16A34A",
+      "secondary": "#22C55E",
+      "accent": "#DC2626",
+      "background": "#F0FDF4",
+      "foreground": "#14532D",
+      "card": "#FFFFFF",
+      "border": "#BBF7D0"
+    },
+    {
+      "no": 167,
+      "product": "通用行動應用 #167",
+      "enProduct": "Wiki / Encyclopedia",
+      "primary": "#1E3A8A",
+      "secondary": "#3B82F6",
+      "accent": "#7C3AED",
+      "background": "#F8FAFC",
+      "foreground": "#1E40AF",
+      "card": "#FFFFFF",
+      "border": "#BFDBFE"
+    },
+    {
+      "no": 168,
+      "product": "競標拍賣 平台",
+      "enProduct": "Auction Platform",
+      "primary": "#0F172A",
+      "secondary": "#1E293B",
+      "accent": "#16A34A",
+      "background": "#020617",
+      "foreground": "#F8FAFC",
+      "card": "#0E1223",
+      "border": "#334155"
+    },
+    {
+      "no": 169,
+      "product": "通用行動應用 #169",
+      "enProduct": "Changelog / Release Notes",
+      "primary": "#475569",
+      "secondary": "#64748B",
+      "accent": "#059669",
+      "background": "#F8FAFC",
+      "foreground": "#1E293B",
+      "card": "#FFFFFF",
+      "border": "#E2E8F0"
+    },
+    {
+      "no": 170,
+      "product": "平台",
+      "enProduct": "Citizen Science Platform",
+      "primary": "#15803D",
+      "secondary": "#22C55E",
+      "accent": "#D97706",
+      "background": "#F0FDF4",
+      "foreground": "#14532D",
+      "card": "#FFFFFF",
+      "border": "#BBF7D0"
+    },
+    {
+      "no": 171,
+      "product": "通用行動應用 #171",
+      "enProduct": "Classifieds / Buy-Sell",
+      "primary": "#2563EB",
+      "secondary": "#3B82F6",
+      "accent": "#16A34A",
+      "background": "#EFF6FF",
+      "foreground": "#1E40AF",
+      "card": "#FFFFFF",
+      "border": "#BFDBFE"
+    },
+    {
+      "no": 172,
+      "product": "門市收銀點餐系統",
+      "enProduct": "Conference / Symposium Landing Page",
+      "primary": "#1E3A5F",
+      "secondary": "#2563EB",
+      "accent": "#A16207",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#CBD5E1"
+    },
+    {
+      "no": 173,
+      "product": "群眾募資 平台",
+      "enProduct": "Crowdfunding Platform",
+      "primary": "#D97706",
+      "secondary": "#F59E0B",
+      "accent": "#16A34A",
+      "background": "#FFFBEB",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#FAEEE1"
+    },
+    {
+      "no": 174,
+      "product": "通用行動應用 #174",
+      "enProduct": "Digital Signage / Kiosk",
+      "primary": "#0F172A",
+      "secondary": "#1E293B",
+      "accent": "#EF4444",
+      "background": "#020617",
+      "foreground": "#F8FAFC",
+      "card": "#0E1223",
+      "border": "#334155"
+    },
+    {
+      "no": 175,
+      "product": "通用行動應用 #175",
+      "enProduct": "E-signature / Document Workflow",
+      "primary": "#1E3A5F",
+      "secondary": "#2563EB",
+      "accent": "#16A34A",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#CBD5E1"
+    },
+    {
+      "no": 176,
+      "product": "管理系統",
+      "enProduct": "Feature Flag / Config Management",
+      "primary": "#0F172A",
+      "secondary": "#1E293B",
+      "accent": "#16A34A",
+      "background": "#020617",
+      "foreground": "#F8FAFC",
+      "card": "#0E1223",
+      "border": "#334155"
+    },
+    {
+      "no": 177,
+      "product": "公共政務 市民服務 服務",
+      "enProduct": "Government Portal / Civic Services",
+      "primary": "#1E40AF",
+      "secondary": "#3B82F6",
+      "accent": "#16A34A",
+      "background": "#EFF6FF",
+      "foreground": "#1E3A8A",
+      "card": "#FFFFFF",
+      "border": "#BFDBFE"
+    },
+    {
+      "no": 178,
+      "product": "通用行動應用 #178",
+      "enProduct": "Grant / Funding Portal",
+      "primary": "#1E3A5F",
+      "secondary": "#2563EB",
+      "accent": "#16A34A",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#CBD5E1"
+    },
+    {
+      "no": 179,
+      "product": "( 管理系統 ) ( )",
+      "enProduct": "LMS (Learning Management System)",
+      "primary": "#0D9488",
+      "secondary": "#2DD4BF",
+      "accent": "#D97706",
+      "background": "#F0FDFA",
+      "foreground": "#134E4A",
+      "card": "#FFFFFF",
+      "border": "#5EEAD4"
+    },
+    {
+      "no": 180,
+      "product": "通用行動應用 #180",
+      "enProduct": "No-code / Low-code Builder",
+      "primary": "#7C3AED",
+      "secondary": "#A78BFA",
+      "accent": "#EC4899",
+      "background": "#FAF5FF",
+      "foreground": "#4C1D95",
+      "card": "#FFFFFF",
+      "border": "#DDD6FE"
+    },
+    {
+      "no": 181,
+      "product": "通用行動應用 #181",
+      "enProduct": "Open Source Project Landing",
+      "primary": "#0F172A",
+      "secondary": "#1E293B",
+      "accent": "#A16207",
+      "background": "#020617",
+      "foreground": "#F8FAFC",
+      "card": "#0E1223",
+      "border": "#334155"
+    },
+    {
+      "no": 182,
+      "product": "通用行動應用 #182",
+      "enProduct": "Patient Portal / Health Records",
+      "primary": "#0284C7",
+      "secondary": "#0891B2",
+      "accent": "#16A34A",
+      "background": "#F0F9FF",
+      "foreground": "#0C4A6E",
+      "card": "#FFFFFF",
+      "border": "#BAE6FD"
+    },
+    {
+      "no": 183,
+      "product": "通用行動應用 #183",
+      "enProduct": "Patent / IP Database",
+      "primary": "#475569",
+      "secondary": "#64748B",
+      "accent": "#A16207",
+      "background": "#F8FAFC",
+      "foreground": "#1E293B",
+      "card": "#FFFFFF",
+      "border": "#E2E8F0"
+    },
+    {
+      "no": 184,
+      "product": "互動社群 平台",
+      "enProduct": "Q&A Community Platform",
+      "primary": "#2563EB",
+      "secondary": "#0891B2",
+      "accent": "#D97706",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#E4ECFC"
+    },
+    {
+      "no": 185,
+      "product": "檢驗中心",
+      "enProduct": "Research Lab / University Department",
+      "primary": "#1E3A5F",
+      "secondary": "#2563EB",
+      "accent": "#A16207",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#CBD5E1"
+    },
+    {
+      "no": 186,
+      "product": "通用行動應用 #186",
+      "enProduct": "Resume / CV Builder",
+      "primary": "#1E3A5F",
+      "secondary": "#2563EB",
+      "accent": "#16A34A",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#CBD5E1"
+    },
+    {
+      "no": 187,
+      "product": "平台",
+      "enProduct": "Review Platform",
+      "primary": "#F59E0B",
+      "secondary": "#FBBF24",
+      "accent": "#16A34A",
+      "background": "#FFFBEB",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "border": "#FAEEE1"
+    },
+    {
+      "no": 188,
+      "product": "儀表板",
+      "enProduct": "RPA / Automation Dashboard",
+      "primary": "#0F172A",
+      "secondary": "#1E293B",
+      "accent": "#16A34A",
+      "background": "#020617",
+      "foreground": "#F8FAFC",
+      "card": "#0E1223",
+      "border": "#334155"
+    },
+    {
+      "no": 189,
+      "product": "問卷調查",
+      "enProduct": "Survey / Form Builder",
+      "primary": "#0D9488",
+      "secondary": "#2DD4BF",
+      "accent": "#D97706",
+      "background": "#F0FDFA",
+      "foreground": "#134E4A",
+      "card": "#FFFFFF",
+      "border": "#5EEAD4"
+    },
+    {
+      "no": 190,
+      "product": "遠距醫療 平台",
+      "enProduct": "Telemedicine Platform",
+      "primary": "#0891B2",
+      "secondary": "#22D3EE",
+      "accent": "#16A34A",
+      "background": "#F0FDFA",
+      "foreground": "#134E4A",
+      "card": "#FFFFFF",
+      "border": "#CCFBF1"
+    },
+    {
+      "no": 191,
+      "product": "&",
+      "enProduct": "Testimonial & Social Proof Widget",
+      "primary": "#7C3AED",
+      "secondary": "#A78BFA",
+      "accent": "#F59E0B",
+      "background": "#FAF5FF",
+      "foreground": "#4C1D95",
+      "card": "#FFFFFF",
+      "border": "#DDD6FE"
+    },
+    {
+      "no": 192,
+      "product": "通用行動應用 #192",
+      "enProduct": "Ticketing / Box Office",
+      "primary": "#0F172A",
+      "secondary": "#1E293B",
+      "accent": "#16A34A",
+      "background": "#020617",
+      "foreground": "#F8FAFC",
+      "card": "#0E1223",
+      "border": "#334155"
+    }
+  ],
+  "typography": [
+    {
+      "no": 1,
+      "name": "Classic Elegant (襯線標題＋無襯線內文)",
+      "heading": "Playfair Display",
+      "body": "Inter",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+    },
+    {
+      "no": 2,
+      "name": "Modern Professional (現代雙無襯線組合)",
+      "heading": "Poppins",
+      "body": "Open Sans",
+      "url": "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    },
+    {
+      "no": 3,
+      "name": "Tech Startup (現代雙無襯線組合)",
+      "heading": "Space Grotesk",
+      "body": "DM Sans",
+      "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    },
+    {
+      "no": 4,
+      "name": "Editorial Classic (典雅雙襯線組合)",
+      "heading": "Cormorant Garamond",
+      "body": "Libre Baskerville",
+      "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap"
+    },
+    {
+      "no": 5,
+      "name": "Minimal Swiss (現代雙無襯線組合)",
+      "heading": "Inter",
+      "body": "Inter",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "no": 6,
+      "name": "Playful Creative (Display + Sans)",
+      "heading": "Fredoka",
+      "body": "Nunito",
+      "url": "https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "no": 7,
+      "name": "Bold Statement (Display + Sans)",
+      "heading": "Bebas Neue",
+      "body": "Source Sans 3",
+      "url": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "no": 8,
+      "name": "Wellness Calm (襯線標題＋無襯線內文)",
+      "heading": "Lora",
+      "body": "Raleway",
+      "url": "https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "no": 9,
+      "name": "Developer Mono (科技等寬＋無襯線組合)",
+      "heading": "JetBrains Mono",
+      "body": "IBM Plex Sans",
+      "url": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    },
+    {
+      "no": 10,
+      "name": "Retro Vintage (Display + Serif)",
+      "heading": "Abril Fatface",
+      "body": "Merriweather",
+      "url": "https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:wght@300;400;700&display=swap"
+    },
+    {
+      "no": 11,
+      "name": "Geometric Modern (現代雙無襯線組合)",
+      "heading": "Outfit",
+      "body": "Work Sans",
+      "url": "https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Work+Sans:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "no": 12,
+      "name": "Luxury Serif (襯線標題＋無襯線內文)",
+      "heading": "Cormorant",
+      "body": "Montserrat",
+      "url": "https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "no": 13,
+      "name": "Friendly SaaS (現代雙無襯線組合)",
+      "heading": "Plus Jakarta Sans",
+      "body": "Plus Jakarta Sans",
+      "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "no": 14,
+      "name": "News Editorial (襯線標題＋無襯線內文)",
+      "heading": "Newsreader",
+      "body": "Roboto",
+      "url": "https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+    },
+    {
+      "no": 15,
+      "name": "Handwritten Charm (Script + Sans)",
+      "heading": "Caveat",
+      "body": "Quicksand",
+      "url": "https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "no": 16,
+      "name": "Corporate Trust (現代雙無襯線組合)",
+      "heading": "Lexend",
+      "body": "Source Sans 3",
+      "url": "https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "no": 17,
+      "name": "Brutalist Raw (Mono + Mono)",
+      "heading": "Space Mono",
+      "body": "Space Mono",
+      "url": "https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+    },
+    {
+      "no": 18,
+      "name": "Fashion Forward (現代雙無襯線組合)",
+      "heading": "Syne",
+      "body": "Manrope",
+      "url": "https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700&display=swap"
+    },
+    {
+      "no": 19,
+      "name": "Soft Rounded (現代雙無襯線組合)",
+      "heading": "Varela Round",
+      "body": "Nunito Sans",
+      "url": "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700&family=Varela+Round&display=swap"
+    },
+    {
+      "no": 20,
+      "name": "Premium Sans (DM Sans) (現代雙無襯線組合)",
+      "heading": "DM Sans",
+      "body": "DM Sans",
+      "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+    },
+    {
+      "no": 21,
+      "name": "Vietnamese Friendly (現代雙無襯線組合)",
+      "heading": "Be Vietnam Pro",
+      "body": "Noto Sans",
+      "url": "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Noto+Sans:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "no": 22,
+      "name": "Japanese Elegant (襯線標題＋無襯線內文)",
+      "heading": "Noto Serif JP",
+      "body": "Noto Sans JP",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;500;600;700&display=swap"
+    },
+    {
+      "no": 23,
+      "name": "Korean Modern (現代雙無襯線組合)",
+      "heading": "Noto Sans KR",
+      "body": "Noto Sans KR",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+    },
+    {
+      "no": 24,
+      "name": "Chinese Traditional (襯線標題＋無襯線內文)",
+      "heading": "Noto Serif TC",
+      "body": "Noto Sans TC",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;500;600;700&display=swap"
+    },
+    {
+      "no": 25,
+      "name": "Chinese Simplified (現代雙無襯線組合)",
+      "heading": "Noto Sans SC",
+      "body": "Noto Sans SC",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap"
+    },
+    {
+      "no": 26,
+      "name": "Arabic Elegant (襯線標題＋無襯線內文)",
+      "heading": "Noto Naskh Arabic",
+      "body": "Noto Sans Arabic",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@300;400;500;700&display=swap"
+    },
+    {
+      "no": 27,
+      "name": "Thai Modern (現代雙無襯線組合)",
+      "heading": "Noto Sans Thai",
+      "body": "Noto Sans Thai",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;700&display=swap"
+    },
+    {
+      "no": 28,
+      "name": "Hebrew Modern (現代雙無襯線組合)",
+      "heading": "Noto Sans Hebrew",
+      "body": "Noto Sans Hebrew",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@300;400;500;700&display=swap"
+    },
+    {
+      "no": 29,
+      "name": "Legal Professional (襯線標題＋無襯線內文)",
+      "heading": "EB Garamond",
+      "body": "Lato",
+      "url": "https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap"
+    },
+    {
+      "no": 30,
+      "name": "Medical Clean (現代雙無襯線組合)",
+      "heading": "Figtree",
+      "body": "Noto Sans",
+      "url": "https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&family=Noto+Sans:wght@300;400;500;700&display=swap"
+    },
+    {
+      "no": 31,
+      "name": "Financial Trust (現代雙無襯線組合)",
+      "heading": "IBM Plex Sans",
+      "body": "IBM Plex Sans",
+      "url": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "no": 32,
+      "name": "Real Estate Luxury (襯線標題＋無襯線內文)",
+      "heading": "Cinzel",
+      "body": "Josefin Sans",
+      "url": "https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "no": 33,
+      "name": "Restaurant Menu (襯線標題＋無襯線內文)",
+      "heading": "Playfair Display SC",
+      "body": "Karla",
+      "url": "https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&family=Playfair+Display+SC:wght@400;700&display=swap"
+    },
+    {
+      "no": 34,
+      "name": "Art Deco (Display + Sans)",
+      "heading": "Poiret One",
+      "body": "Didact Gothic",
+      "url": "https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Poiret+One&display=swap"
+    },
+    {
+      "no": 35,
+      "name": "Magazine Style (襯線標題＋無襯線內文)",
+      "heading": "Libre Bodoni",
+      "body": "Public Sans",
+      "url": "https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;500;600;700&family=Public+Sans:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "no": 36,
+      "name": "Crypto/Web3 (現代雙無襯線組合)",
+      "heading": "Orbitron",
+      "body": "Exo 2",
+      "url": "https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap"
+    },
+    {
+      "no": 37,
+      "name": "Gaming Bold (Display + Sans)",
+      "heading": "Russo One",
+      "body": "Chakra Petch",
+      "url": "https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Russo+One&display=swap"
+    },
+    {
+      "no": 38,
+      "name": "Indie/Craft (Display + Sans)",
+      "heading": "Amatic SC",
+      "body": "Cabin",
+      "url": "https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cabin:wght@400;500;600;700&display=swap"
+    },
+    {
+      "no": 39,
+      "name": "Startup Bold (Outfit + Rubik) (現代雙無襯線組合)",
+      "heading": "Outfit",
+      "body": "Rubik",
+      "url": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "no": 40,
+      "name": "E-commerce Clean (現代雙無襯線組合)",
+      "heading": "Rubik",
+      "body": "Nunito Sans",
+      "url": "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "no": 41,
+      "name": "Academic/Research (襯線標題＋無襯線內文)",
+      "heading": "Crimson Pro",
+      "body": "Atkinson Hyperlegible",
+      "url": "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Crimson+Pro:wght@400;500;600;700&display=swap"
+    },
+    {
+      "no": 42,
+      "name": "Dashboard Data (科技等寬＋無襯線組合)",
+      "heading": "Fira Code",
+      "body": "Fira Sans",
+      "url": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Fira+Sans:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "no": 43,
+      "name": "Music/Entertainment (Display + Sans)",
+      "heading": "Righteous",
+      "body": "Poppins",
+      "url": "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Righteous&display=swap"
+    },
+    {
+      "no": 44,
+      "name": "Minimalist Portfolio (現代雙無襯線組合)",
+      "heading": "Archivo",
+      "body": "Space Grotesk",
+      "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "no": 45,
+      "name": "Kids/Education (Display + Sans)",
+      "heading": "Baloo 2",
+      "body": "Comic Neue",
+      "url": "https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Comic+Neue:wght@300;400;700&display=swap"
+    },
+    {
+      "no": 46,
+      "name": "Wedding/Romance (Script + Serif)",
+      "heading": "Great Vibes",
+      "body": "Cormorant Infant",
+      "url": "https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;500;600;700&family=Great+Vibes&display=swap"
+    },
+    {
+      "no": 47,
+      "name": "Science/Tech (現代雙無襯線組合)",
+      "heading": "Exo",
+      "body": "Roboto Mono",
+      "url": "https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500;700&display=swap"
+    },
+    {
+      "no": 48,
+      "name": "Accessibility First (現代雙無襯線組合)",
+      "heading": "Atkinson Hyperlegible",
+      "body": "Atkinson Hyperlegible",
+      "url": "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap"
+    },
+    {
+      "no": 49,
+      "name": "Sports/Fitness (現代雙無襯線組合)",
+      "heading": "Barlow Condensed",
+      "body": "Barlow",
+      "url": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Barlow:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "no": 50,
+      "name": "Luxury Minimalist (襯線標題＋無襯線內文)",
+      "heading": "Bodoni Moda",
+      "body": "Jost",
+      "url": "https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500;600;700&family=Jost:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "no": 51,
+      "name": "Tech/HUD Mono (Mono + Mono)",
+      "heading": "Share Tech Mono",
+      "body": "Fira Code",
+      "url": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap"
+    },
+    {
+      "no": 52,
+      "name": "Pixel Retro (Display + Sans)",
+      "heading": "Press Start 2P",
+      "body": "VT323",
+      "url": "https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap"
+    },
+    {
+      "no": 53,
+      "name": "Neubrutalist Bold (Display + Sans)",
+      "heading": "Lexend Mega",
+      "body": "Public Sans",
+      "url": "https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&family=Public+Sans:wght@100..900&display=swap"
+    },
+    {
+      "no": 54,
+      "name": "Academic/Archival (典雅雙襯線組合)",
+      "heading": "EB Garamond",
+      "body": "Crimson Text",
+      "url": "https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=EB+Garamond:wght@400;500;600;700;800&display=swap"
+    },
+    {
+      "no": 55,
+      "name": "Spatial Clear (現代雙無襯線組合)",
+      "heading": "Inter",
+      "body": "Inter",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+    },
+    {
+      "no": 56,
+      "name": "Kinetic Motion (Display + Mono)",
+      "heading": "Syncopate",
+      "body": "Space Mono",
+      "url": "https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syncopate:wght@400;700&display=swap"
+    },
+    {
+      "no": 57,
+      "name": "Gen Z Brutal (Display + Sans)",
+      "heading": "Anton",
+      "body": "Epilogue",
+      "url": "https://fonts.googleapis.com/css2?family=Anton&family=Epilogue:wght@400;500;600;700&display=swap"
+    },
+    {
+      "no": 58,
+      "name": "Bauhaus Geometric (Geometric Sans + Single Weight)",
+      "heading": "Outfit",
+      "body": "Outfit",
+      "url": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&display=swap"
+    },
+    {
+      "no": 59,
+      "name": "Minimalist Monochrome Editorial (典雅雙襯線組合 + Mono (Triple Stack))",
+      "heading": "Playfair Display",
+      "body": "Source Serif 4",
+      "url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300"
+    },
+    {
+      "no": 60,
+      "name": "Modern Dark Cinema (Inter System) (Sans + Mono)",
+      "heading": "Inter",
+      "body": "Inter",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "no": 61,
+      "name": "SaaS Mobile Boutique (Calistoga + Inter) (Display 襯線標題＋無襯線內文 + Mono)",
+      "heading": "Calistoga",
+      "body": "Inter",
+      "url": "https://fonts.googleapis.com/css2?family=Calistoga:ital@0;1&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    },
+    {
+      "no": 62,
+      "name": "Terminal CLI Monospace (Mono + Mono (Single Family))",
+      "heading": "JetBrains Mono",
+      "body": "JetBrains Mono",
+      "url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;1,400"
+    },
+    {
+      "no": 63,
+      "name": "Kinetic Brutalism (Space Grotesk) (Geometric Sans (Single Dominant))",
+      "heading": "Space Grotesk",
+      "body": "Space Grotesk",
+      "url": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    },
+    {
+      "no": 64,
+      "name": "Flat Design Mobile (System Bold) (現代雙無襯線組合)",
+      "heading": "Inter",
+      "body": "Inter",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+    },
+    {
+      "no": 65,
+      "name": "Material You MD3 (Roboto System) (Sans (System Default))",
+      "heading": "Roboto",
+      "body": "Roboto",
+      "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400"
+    },
+    {
+      "no": 66,
+      "name": "Neo Brutalism Mobile (Space Grotesk Bold) (Geometric Sans (Bold-Only))",
+      "heading": "Space Grotesk",
+      "body": "Space Grotesk",
+      "url": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap"
+    },
+    {
+      "no": 67,
+      "name": "Bold Typography Mobile (Inter Poster) (Sans + Serif (Display) + Mono)",
+      "heading": "Inter",
+      "body": "Playfair Display",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400&family=Playfair+Display:ital@1"
+    },
+    {
+      "no": 68,
+      "name": "Academia Mobile (Cormorant + Crimson + Cinzel) (Serif + Book Serif + Engraved (Triple Stack))",
+      "heading": "Cormorant Garamond",
+      "body": "Crimson Pro",
+      "url": "https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,500;0,700;1,300;1,500&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400"
+    },
+    {
+      "no": 69,
+      "name": "Cyberpunk Mobile (Orbitron + JetBrains Mono) (Tech Display + Mono)",
+      "heading": "Orbitron",
+      "body": "JetBrains Mono",
+      "url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Orbitron:wght@700;900&display=swap"
+    },
+    {
+      "no": 70,
+      "name": "Web3 Bitcoin DeFi (Space Grotesk + Inter + Mono) (Geometric 現代雙無襯線組合 + Mono (Triple))",
+      "heading": "Space Grotesk",
+      "body": "Inter",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap"
+    },
+    {
+      "no": 71,
+      "name": "Claymorphism Mobile (Nunito + DM Sans) (Display Rounded + Geometric Sans)",
+      "heading": "Nunito",
+      "body": "DM Sans",
+      "url": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Nunito:ital,wght@0,700;0,800;0,900;1,700"
+    },
+    {
+      "no": 72,
+      "name": "Enterprise SaaS Mobile (Plus Jakarta Sans) (Geometric Sans (Single Family))",
+      "heading": "Plus Jakarta Sans",
+      "body": "Plus Jakarta Sans",
+      "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400"
+    },
+    {
+      "no": 73,
+      "name": "Sketch Hand-Drawn Mobile (Kalam + Patrick Hand) (Handwritten + Handwritten (Dual))",
+      "heading": "Kalam",
+      "body": "Patrick Hand",
+      "url": "https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Patrick+Hand&display=swap"
+    },
+    {
+      "no": 74,
+      "name": "Neumorphism Mobile (Plus Jakarta Sans + System) (Geometric Sans (System Fallback))",
+      "heading": "Plus Jakarta Sans",
+      "body": "Plus Jakarta Sans",
+      "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,700;1,400"
+    }
+  ],
+  "cases": [
+    {
+      "id": "c-art-moma",
+      "cat": "藝術展覽",
+      "name": "🏛️ 國立當代美術館 (MOMA Archive)",
+      "sub": "雙年展主視覺 × 典藏常設展 × 策展人論述 (3頁)",
+      "styleId": "biennale-exhibition",
+      "mode": "light",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#0a0a0a",
+        "secondary": "#404040",
+        "accent": "#ea580c",
+        "bg": "#ffffff",
+        "card": "#f5f5f4",
+        "fg": "#0a0a0a"
+      },
+      "screens": [
+        [
+          "01_當期雙年展特刊",
+          "artExhibition"
+        ],
+        [
+          "02_策展人論述與展品",
+          "artCatalog"
+        ],
+        [
+          "03_參觀預約與導覽席",
+          "checkout"
+        ]
+      ],
+      "brand": "MOMA 國立當代美術館",
+      "items": [
+        "光影重構：當代空間幾何特展",
+        "展期：2026.11.01 - 2027.02.28",
+        "展廳 A · 雕塑與裝置",
+        "策展人：林舒涵博士"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-art-taipei",
+      "cat": "藝術展覽",
+      "name": "🎟️ 台北當代藝術博覽會 (Taipei Dangdai)",
+      "sub": "VIP 貴賓導覽 × 國際展位地圖 × 藝術家名錄 (3頁)",
+      "styleId": "contemporary-agency",
+      "mode": "light",
+      "typoNo": 3,
+      "colors": {
+        "primary": "#18181b",
+        "secondary": "#3f3f46",
+        "accent": "#d97706",
+        "bg": "#fcfbf9",
+        "card": "#ffffff",
+        "fg": "#18181b"
+      },
+      "screens": [
+        [
+          "01_博覽會專題總覽",
+          "artExhibition"
+        ],
+        [
+          "02_畫廊展位與典藏",
+          "artCatalog"
+        ],
+        [
+          "03_VIP藏家預約席",
+          "checkout"
+        ]
+      ],
+      "brand": "TAIPEI DANGDAI 2026",
+      "items": [
+        "亞洲當代藝術先鋒評選",
+        "全球 90 家頂級當代藝廊",
+        "VIP 預展專屬時段",
+        "國際藏家論壇席位"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-craft-ceramic",
+      "cat": "藝術展覽",
+      "name": "🏺 當代手工陶藝雙年展 (Ceramic Biennale)",
+      "sub": "柴燒器物美學 × 匠人手感溫度 × 展品型錄 (3頁)",
+      "styleId": "craft-ceramic",
+      "mode": "light",
+      "typoNo": 4,
+      "colors": {
+        "primary": "#9a3412",
+        "secondary": "#c2410c",
+        "accent": "#ea580c",
+        "bg": "#fff7ed",
+        "card": "#ffedd5",
+        "fg": "#431407"
+      },
+      "screens": [
+        [
+          "01_陶藝雙年展特刊",
+          "artExhibition"
+        ],
+        [
+          "02_柴燒手感誌型錄",
+          "artCatalog"
+        ],
+        [
+          "03_工藝沙龍座談預約",
+          "checkout"
+        ]
+      ],
+      "brand": "흙 ATELIER 當代陶藝館",
+      "items": [
+        "泥土與火的交響：柴燒茶器展",
+        "天然落灰釉與鐵斑紋理",
+        "人間國寶匠人現場拉胚示範",
+        "陶藝工坊體驗名額"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-art-sculpture",
+      "cat": "藝術展覽",
+      "name": "🗿 雕塑與光影公共藝術展 (Sculpture & Light)",
+      "sub": "石材幾何透視 × 虛實空間留白 × 語音導覽 (3頁)",
+      "styleId": "minimal-spatial",
+      "mode": "light",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#27272a",
+        "secondary": "#52525b",
+        "accent": "#0284c7",
+        "bg": "#fafafa",
+        "card": "#ffffff",
+        "fg": "#18181b"
+      },
+      "screens": [
+        [
+          "01_戶外巨型雕塑展",
+          "artExhibition"
+        ],
+        [
+          "02_空間虛實動線導覽",
+          "artCatalog"
+        ],
+        [
+          "03_聲光導覽機預約",
+          "checkout"
+        ]
+      ],
+      "brand": "SPATIAL VOID 雕塑美術館",
+      "items": [
+        "花崗岩與鋼構的張力對話",
+        "光影折射庭園路徑規劃",
+        "夜間照明雕塑特展",
+        "聲學互動導覽耳機借調"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-art-ink",
+      "cat": "藝術展覽",
+      "name": "🖼️ 當代實驗水墨水相展 (Modern Ink Wash)",
+      "sub": "宣紙留白意境 × 墨分五色 × 文人雅集 (3頁)",
+      "styleId": "wabi-sabi-zen",
+      "mode": "light",
+      "typoNo": 4,
+      "colors": {
+        "primary": "#1c1917",
+        "secondary": "#44403c",
+        "accent": "#b91c1c",
+        "bg": "#fcfbf9",
+        "card": "#ffffff",
+        "fg": "#1c1917"
+      },
+      "screens": [
+        [
+          "01_潑墨水相專題",
+          "artExhibition"
+        ],
+        [
+          "02_留白意境論述導覽",
+          "artCatalog"
+        ],
+        [
+          "03_文人雅集席位預訂",
+          "checkout"
+        ]
+      ],
+      "brand": "墨相 MO-XIANG 當代水墨",
+      "items": [
+        "虛實共生：水墨實驗裝置展",
+        "手工宣紙與松煙墨流動軌跡",
+        "大寫意山水當代解構",
+        "文人茶席與對話分享會"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-art-digital",
+      "cat": "藝術展覽",
+      "name": "🪞 沉浸式數位藝術光影節 (Immersive Light)",
+      "sub": "感官多媒體展間 × 暗室投影 × 時段預約 (3頁)",
+      "styleId": "glassmorphism-aurora",
+      "mode": "dark",
+      "typoNo": 3,
+      "colors": {
+        "primary": "#00f0ff",
+        "secondary": "#8b5cf6",
+        "accent": "#f43f5e",
+        "bg": "#05050a",
+        "card": "#111827",
+        "fg": "#f8fafc"
+      },
+      "screens": [
+        [
+          "01_光影展演主頁",
+          "artExhibition"
+        ],
+        [
+          "02_沉浸展間時段表",
+          "artCatalog"
+        ],
+        [
+          "03_感官門票即時預訂",
+          "checkout"
+        ]
+      ],
+      "brand": "LUMEN 沉浸光影藝術節",
+      "items": [
+        "無限鏡像與光子粒子流",
+        "多聲道立體空間音效包圍",
+        "每場次限額 30 人沉浸體驗",
+        "夜間星空專屬場次預約"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-art-salon",
+      "cat": "藝術展覽",
+      "name": "🏛️ 私人藏家古董藝術沙龍 (Collector Salon)",
+      "sub": "沉香古董珍玩 × 私賞鑑賞志 × 私密預約制 (3頁)",
+      "styleId": "fine-dining",
+      "mode": "dark",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#d97706",
+        "secondary": "#b45309",
+        "accent": "#f59e0b",
+        "bg": "#120d0a",
+        "card": "#1c1510",
+        "fg": "#fef3c7"
+      },
+      "screens": [
+        [
+          "01_私藏雅集名錄",
+          "artExhibition"
+        ],
+        [
+          "02_古物鑑賞專題目錄",
+          "artCatalog"
+        ],
+        [
+          "03_私密鑑賞時段申請",
+          "checkout"
+        ]
+      ],
+      "brand": "汲古集 PRIVÉ 典藏沙龍",
+      "items": [
+        "宋代青瓷與明式黃花梨家具",
+        "流傳有序之古籍手卷",
+        "專業古物修復師親解工法",
+        "一對一私人鑑賞預約制"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-art-emerging",
+      "cat": "藝術展覽",
+      "name": "🎨 獨立青年藝術家聯展 (Emerging Artists)",
+      "sub": "新銳媒介裝置 × 創作者自白筆記 × 贊助票務 (3頁)",
+      "styleId": "neubrutalism-pop",
+      "mode": "light",
+      "typoNo": 3,
+      "colors": {
+        "primary": "#ff5722",
+        "secondary": "#d946ef",
+        "accent": "#10b981",
+        "bg": "#fefce8",
+        "card": "#ffffff",
+        "fg": "#000000"
+      },
+      "screens": [
+        [
+          "01_新銳聯展大賞",
+          "artExhibition"
+        ],
+        [
+          "02_創作者自白筆記",
+          "artCatalog"
+        ],
+        [
+          "03_贊助支持與票務",
+          "checkout"
+        ]
+      ],
+      "brand": "RAW WAVE 青年藝術陣線",
+      "items": [
+        "無拘媒介：跨世代視覺實驗",
+        "35 位獨立藝術家自選新作",
+        "未完工手繪草稿特展牆",
+        "獨立出版展冊限量隨票贈送"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-arch-atelier",
+      "cat": "建築空間",
+      "name": "📐 建築師事務所概念提案 (Architect Atelier)",
+      "sub": "清水模構造哲學 × 軸測剖面圖 × 競圖方案 (3頁)",
+      "styleId": "architectural-editorial",
+      "mode": "light",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#1c1917",
+        "secondary": "#57534e",
+        "accent": "#b45309",
+        "bg": "#fcfbf9",
+        "card": "#ffffff",
+        "fg": "#1c1917"
+      },
+      "screens": [
+        [
+          "01_競圖概念總覽",
+          "editorial"
+        ],
+        [
+          "02_軸測透視與剖面",
+          "artCatalog"
+        ],
+        [
+          "03_構造工法諮詢",
+          "checkout"
+        ]
+      ],
+      "brand": "ATELIER ARCH 建築研所",
+      "items": [
+        "基地環境共生概念提案",
+        "清水混凝土與天光流動剖面",
+        "綠建築通風採光微氣候模擬",
+        "構造節點 1:1 構造樣品展示"
+      ],
+      "dev": "1280x800"
+    },
+    {
+      "id": "c-arch-nordic",
+      "cat": "建築空間",
+      "name": "🪵 北歐中古家具型錄 (Nordic Vintage Living)",
+      "sub": "原木榫接工藝 × 經典名椅典藏 × 展間試坐 (3頁)",
+      "styleId": "nordic-furniture",
+      "mode": "light",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#292524",
+        "secondary": "#57534e",
+        "accent": "#a8a29e",
+        "bg": "#fcfbf9",
+        "card": "#ffffff",
+        "fg": "#1c1917"
+      },
+      "screens": [
+        [
+          "01_經典名椅特刊",
+          "artExhibition"
+        ],
+        [
+          "02_榫接木藝細節",
+          "artCatalog"
+        ],
+        [
+          "03_預約展間試坐席",
+          "checkout"
+        ]
+      ],
+      "brand": "SKANDI LIVING 北歐選品",
+      "items": [
+        "丹麥中古柚木扶手椅 1958",
+        "純手工黃銅與牛皮細節處理",
+        "天然亞麻軟包坐感體驗",
+        "原產地修復證書齊備"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-arch-tadao",
+      "cat": "建築空間",
+      "name": "🌿 清水模私人住宅特輯 (Concrete Sanctuary)",
+      "sub": "天井採光切角 × 虛實空間流動 × 樣品借調 (3頁)",
+      "styleId": "minimal-spatial",
+      "mode": "light",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#27272a",
+        "secondary": "#52525b",
+        "accent": "#0284c7",
+        "bg": "#f4f4f5",
+        "card": "#ffffff",
+        "fg": "#18181b"
+      },
+      "screens": [
+        [
+          "01_光之宅第專題",
+          "editorial"
+        ],
+        [
+          "02_天井與光影流動",
+          "artCatalog"
+        ],
+        [
+          "03_建材樣品借調預約",
+          "checkout"
+        ]
+      ],
+      "brand": "VOID & FORM 空間專題",
+      "items": [
+        "極致素混凝土牆面工法",
+        "季節光影射入角度推導",
+        "庭院無邊界水景倒影",
+        "設計專案洽談與圖面審查"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-arch-interior",
+      "cat": "建築空間",
+      "name": "🛋️ 當代室內軟裝設計誌 (Interior Styling)",
+      "sub": "材質情緒板 Moodboard × 織品選樣 × 案場諮詢 (3頁)",
+      "styleId": "minimalist-luxury",
+      "mode": "light",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#18181b",
+        "secondary": "#3f3f46",
+        "accent": "#d97706",
+        "bg": "#f5f5f4",
+        "card": "#ffffff",
+        "fg": "#18181b"
+      },
+      "screens": [
+        [
+          "01_軟裝情緒板特刊",
+          "artExhibition"
+        ],
+        [
+          "02_天然織品選樣清單",
+          "artCatalog"
+        ],
+        [
+          "03_專案丈量諮詢預約",
+          "checkout"
+        ]
+      ],
+      "brand": "MAISON MOOD 軟裝誌",
+      "items": [
+        "米蘭居家軟裝趨勢配色",
+        "比利時重磅亞麻窗簾選樣",
+        "手工羊毛編織地毯搭配",
+        "到府空間色溫量測建議"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-arch-karesansui",
+      "cat": "建築空間",
+      "name": "🪨 日式枯山水庭園景觀 (Karesansui Design)",
+      "sub": "禪宗造園手冊 × 石組水流寓意 × 庭師勘景 (3頁)",
+      "styleId": "wabi-sabi-zen",
+      "mode": "light",
+      "typoNo": 4,
+      "colors": {
+        "primary": "#44403c",
+        "secondary": "#57534e",
+        "accent": "#a16207",
+        "bg": "#fafaf9",
+        "card": "#ffffff",
+        "fg": "#292524"
+      },
+      "screens": [
+        [
+          "01_枯山水造園圖誌",
+          "artExhibition"
+        ],
+        [
+          "02_石組排列與水流寓意",
+          "artCatalog"
+        ],
+        [
+          "03_庭師到府勘景預約",
+          "checkout"
+        ]
+      ],
+      "brand": "靜心造園 KARESANSUI",
+      "items": [
+        "三尊石組與青白砂波紋",
+        "四時青苔養護生態系統",
+        "竹籬隔屏與露地茶庭動線",
+        "私人庭院景觀規劃評估"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-arch-facade",
+      "cat": "建築空間",
+      "name": "🪟 當代立面帷幕設計論述 (Facade Geometry)",
+      "sub": "遮陽格柵透光 × 雙層呼吸外牆 × 節能模擬 (3頁)",
+      "styleId": "swiss-international",
+      "mode": "light",
+      "typoNo": 3,
+      "colors": {
+        "primary": "#111827",
+        "secondary": "#374151",
+        "accent": "#ea580c",
+        "bg": "#f9fafb",
+        "card": "#ffffff",
+        "fg": "#111827"
+      },
+      "screens": [
+        [
+          "01_遮陽格柵透光研究",
+          "editorial"
+        ],
+        [
+          "02_雙層外牆結構剖面",
+          "artCatalog"
+        ],
+        [
+          "03_日照節能模擬委託",
+          "checkout"
+        ]
+      ],
+      "brand": "FACADE LAB 外牆研究所",
+      "items": [
+        "參數化多孔金屬遮陽面板",
+        "熱壓雙層玻璃隔音隔熱試驗",
+        "垂直綠化立面灌溉系統",
+        "高層建築抗風壓結構計算"
+      ],
+      "dev": "1280x800"
+    },
+    {
+      "id": "c-arch-hotel",
+      "cat": "建築空間",
+      "name": "🏨 精品設計旅宿 (Boutique Design Hotel)",
+      "sub": "在地風土融合 × 私廚旬味美饌 × 專屬管家 (3頁)",
+      "styleId": "luxury-real-estate",
+      "mode": "light",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#1c1917",
+        "secondary": "#44403c",
+        "accent": "#ca8a04",
+        "bg": "#fbfbfb",
+        "card": "#ffffff",
+        "fg": "#1c1917"
+      },
+      "screens": [
+        [
+          "01_宿所概念與客房賞析",
+          "artExhibition"
+        ],
+        [
+          "02_私廚旬味美饌目錄",
+          "artCatalog"
+        ],
+        [
+          "03_專屬管家訂房服務",
+          "checkout"
+        ]
+      ],
+      "brand": "AMAN VILLA 靜隱旅宿",
+      "items": [
+        "山林天井露天湯呂客房",
+        "在地有機食材旬味私廚晚宴",
+        "私人專屬管家接送服務",
+        "客房專用檜木芳療精油禮遇"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-arch-caflab",
+      "cat": "建築空間",
+      "name": "☕ 建築師自家改造咖啡空間 (Architect Cafe)",
+      "sub": "街角老屋改建記錄 × 實驗手沖菜單 × 微型展 (3頁)",
+      "styleId": "industrial-hardware",
+      "mode": "light",
+      "typoNo": 3,
+      "colors": {
+        "primary": "#475569",
+        "secondary": "#64748b",
+        "accent": "#78350f",
+        "bg": "#f8fafc",
+        "card": "#ffffff",
+        "fg": "#0f172a"
+      },
+      "screens": [
+        [
+          "01_街角改建記錄特輯",
+          "editorial"
+        ],
+        [
+          "02_手作實驗咖啡菜單",
+          "artCatalog"
+        ],
+        [
+          "03_建築圖紙微型展預約",
+          "checkout"
+        ]
+      ],
+      "brand": "GRID COFFEE 建築咖啡所",
+      "items": [
+        "60年紅磚老宅結構補強日誌",
+        "鐵件與清水模咖啡吧台設計",
+        "淺烘焙單品咖啡產區輪替",
+        "微型建築模型與手繪草圖展"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-pub-monograph",
+      "cat": "獨立出版",
+      "name": "📰 當代空間批判誌 (Monograph Review)",
+      "sub": "巨型襯線大字 × 建築留白與雙欄敘事 (手機+電腦)",
+      "styleId": "architectural-editorial",
+      "mode": "light",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#1c1917",
+        "secondary": "#57534e",
+        "accent": "#b45309",
+        "bg": "#fbfaf8",
+        "card": "#ffffff",
+        "fg": "#1c1917"
+      },
+      "screens": [
+        [
+          "01_封面專題特刊",
+          "editorial"
+        ],
+        [
+          "02_建築專案深度論述",
+          "artCatalog"
+        ],
+        [
+          "03_年度期刊訂閱方案",
+          "checkout"
+        ]
+      ],
+      "brand": "MONOGRAPH 當代空間誌",
+      "items": [
+        "城市邊界的消融與再構築",
+        "雙年展金獎得主專題訪談",
+        "紙質印刷工藝與特別色套印",
+        "全年度紙本刊物配送到府"
+      ],
+      "dev": "1280x800"
+    },
+    {
+      "id": "c-pub-poetry",
+      "cat": "獨立出版",
+      "name": "📖 獨立詩人季刊選輯 (Poetry Journal)",
+      "sub": "直排排版詩行 × 手寫原稿筆跡 × 限量預購 (3頁)",
+      "styleId": "monochrome-editorial",
+      "mode": "light",
+      "typoNo": 4,
+      "colors": {
+        "primary": "#18181b",
+        "secondary": "#3f3f46",
+        "accent": "#71717a",
+        "bg": "#fdfbf7",
+        "card": "#ffffff",
+        "fg": "#18181b"
+      },
+      "screens": [
+        [
+          "01_卷首詩與手寫原稿",
+          "artExhibition"
+        ],
+        [
+          "02_詩人朗讀聲軌目錄",
+          "artCatalog"
+        ],
+        [
+          "03_實體刊物限量預購",
+          "checkout"
+        ]
+      ],
+      "brand": "微聲詩刊 VERSE INDIE",
+      "items": [
+        "秋季卷首詩：在留白之處停頓",
+        "詩人親筆手稿隨書附印",
+        "原聲朗讀錄音 QR Code 收錄",
+        "手工線裝限定版 300 冊"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-pub-philosophy",
+      "cat": "獨立出版",
+      "name": "🖋️ 當代哲學與思想沙龍 (Philosophy Hub)",
+      "sub": "經典文本註釋 × 青年學者對談 × 讀書會 (3頁)",
+      "styleId": "independent-review",
+      "mode": "light",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#1e293b",
+        "secondary": "#475569",
+        "accent": "#b91c1c",
+        "bg": "#f8fafc",
+        "card": "#ffffff",
+        "fg": "#0f172a"
+      },
+      "screens": [
+        [
+          "01_思想專題主論述",
+          "editorial"
+        ],
+        [
+          "02_辯論交鋒摘要集",
+          "artCatalog"
+        ],
+        [
+          "03_週末思辨沙龍席位",
+          "checkout"
+        ]
+      ],
+      "brand": "LOGOS 哲學思想沙龍",
+      "items": [
+        "主體性與數位異化的反思",
+        "海德格爾與當代科技倫理",
+        "每週日晚間思辨讀書會",
+        "年度哲學論文季刊訂閱"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-pub-bookshop",
+      "cat": "獨立出版",
+      "name": "📚 小眾獨立書店線上選品 (Indie Bookshop)",
+      "sub": "店長手寫推薦卡 × Zine 手工小誌 × 盲盒 (3頁)",
+      "styleId": "artisanal-coffee",
+      "mode": "light",
+      "typoNo": 4,
+      "colors": {
+        "primary": "#78350f",
+        "secondary": "#92400e",
+        "accent": "#991b1b",
+        "bg": "#fffbeb",
+        "card": "#ffffff",
+        "fg": "#451a03"
+      },
+      "screens": [
+        [
+          "01_店長私房書單推薦",
+          "artExhibition"
+        ],
+        [
+          "02_Zine 手工小誌展售",
+          "artCatalog"
+        ],
+        [
+          "03_每月選書盲盒訂閱",
+          "checkout"
+        ]
+      ],
+      "brand": "晴耕雨讀 INDIE BOOKS",
+      "items": [
+        "店長手工毛筆題簽推薦卡",
+        "獨立青年創作者 Zine 手工本",
+        "每月精選文學盲盒直送",
+        "巷弄老屋閱讀座位借用"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-pub-expedition",
+      "cat": "獨立出版",
+      "name": "🧭 人文地理探險紀行 (Global Expedition)",
+      "sub": "野外田野筆記 × 等高線地圖 × 探險放映 (3頁)",
+      "styleId": "global-expedition",
+      "mode": "light",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#1e3a8a",
+        "secondary": "#1e40af",
+        "accent": "#ea580c",
+        "bg": "#f8fafc",
+        "card": "#ffffff",
+        "fg": "#0f172a"
+      },
+      "screens": [
+        [
+          "01_極地踏查日記手稿",
+          "editorial"
+        ],
+        [
+          "02_經緯座標與植物標本",
+          "artCatalog"
+        ],
+        [
+          "03_探險紀錄片放映票券",
+          "checkout"
+        ]
+      ],
+      "brand": "TERRA 探險地理誌",
+      "items": [
+        "冰川消退前線田野踏查日誌",
+        "高海拔珍稀植物手繪標本",
+        "等高線羊皮紙印刷附錄",
+        "探險隊員隨行講座入場席"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-pub-typo",
+      "cat": "獨立出版",
+      "name": "🗞️ 字體設計與排版學季刊 (Typography Annual)",
+      "sub": "鉛字活版印刷 × 襯線曲線解析 × 樣張下載 (3頁)",
+      "styleId": "swiss-international",
+      "mode": "light",
+      "typoNo": 3,
+      "colors": {
+        "primary": "#dc2626",
+        "secondary": "#000000",
+        "accent": "#4b5563",
+        "bg": "#ffffff",
+        "card": "#f3f4f6",
+        "fg": "#000000"
+      },
+      "screens": [
+        [
+          "01_字型設計年鑑封面",
+          "editorial"
+        ],
+        [
+          "02_西文襯線與中文明體",
+          "artCatalog"
+        ],
+        [
+          "03_活版樣張典藏冊訂購",
+          "checkout"
+        ]
+      ],
+      "brand": "TYPO GRAPHIA 字體年刊",
+      "items": [
+        "鑄字銅模到數位字型進化史",
+        "明體橫細豎粗比例幾何分析",
+        "國際著名字型設計師訪談",
+        "傳統活版凸印手工樣張冊"
+      ],
+      "dev": "1280x800"
+    },
+    {
+      "id": "c-pub-conservation",
+      "cat": "獨立出版",
+      "name": "📜 古籍修復與典籍保存 (Rare Book Lab)",
+      "sub": "手工修復日誌 × 酸鹼平衡紙質 × 裝訂工法 (3頁)",
+      "styleId": "craft-ceramic",
+      "mode": "light",
+      "typoNo": 4,
+      "colors": {
+        "primary": "#9a3412",
+        "secondary": "#c2410c",
+        "accent": "#431407",
+        "bg": "#fff7ed",
+        "card": "#ffedd5",
+        "fg": "#431407"
+      },
+      "screens": [
+        [
+          "01_修復師工作台日誌",
+          "artExhibition"
+        ],
+        [
+          "02_古書拆線與補破工法",
+          "artCatalog"
+        ],
+        [
+          "03_典籍修復線上預約",
+          "checkout"
+        ]
+      ],
+      "brand": "芸香閣 古籍修復所",
+      "items": [
+        "明代線裝書水漬脫酸清洗",
+        "手工和紙纖維補破技術手冊",
+        "純天然小麥澱粉漿糊熬製",
+        "私人珍稀藏書估價修復諮詢"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-pub-essays",
+      "cat": "獨立出版",
+      "name": "💭 隨筆與微型小說選 (Literary Essays)",
+      "sub": "夜間深閱讀 × 紙色微溫感 × 隨身小冊 (3頁)",
+      "styleId": "monochrome-editorial",
+      "mode": "light",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#18181b",
+        "secondary": "#27272a",
+        "accent": "#a1a1aa",
+        "bg": "#fafaf9",
+        "card": "#ffffff",
+        "fg": "#18181b"
+      },
+      "screens": [
+        [
+          "01_夜讀微型小說選",
+          "artExhibition"
+        ],
+        [
+          "02_讀者心緒留白空間",
+          "artCatalog"
+        ],
+        [
+          "03_口袋散文隨身小冊",
+          "checkout"
+        ]
+      ],
+      "brand": "夜讀 NOCTURNE 隨想",
+      "items": [
+        "城市孤獨與雨夜散步隨筆",
+        "十位當代作家千字極短篇",
+        "低反差柔和護眼排版模式",
+        "精裝口袋書直送到府方案"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-music-philharmonic",
+      "cat": "音樂表演",
+      "name": "🎻 古典交響樂團年度巡演 (Philharmonic)",
+      "sub": "樂季曲目解說 × 首席音樂家專訪 × 聲學選座 (3頁)",
+      "styleId": "fine-dining",
+      "mode": "dark",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#d97706",
+        "secondary": "#b45309",
+        "accent": "#881337",
+        "bg": "#0f172a",
+        "card": "#1e293b",
+        "fg": "#f8fafc"
+      },
+      "screens": [
+        [
+          "01_樂季旗艦曲目解說",
+          "editorial"
+        ],
+        [
+          "02_指揮與首席名錄",
+          "artCatalog"
+        ],
+        [
+          "03_音樂廳聲學選座",
+          "checkout"
+        ]
+      ],
+      "brand": "ROYAL PHILHARMONIC 樂季",
+      "items": [
+        "馬勒第二號交響曲《復活》",
+        "柏林愛樂客座指揮名家論述",
+        "音樂廳二樓正中央聲學黃金席",
+        "全樂季套票專屬導聆講座"
+      ],
+      "dev": "1280x800"
+    },
+    {
+      "id": "c-music-jazz",
+      "cat": "音樂表演",
+      "name": "🎷 深夜藍調爵士俱樂部 (Midnight Jazz Club)",
+      "sub": "即興演出陣容 × 威士忌特調酒單 × Live席 (3頁)",
+      "styleId": "retro-futurism",
+      "mode": "dark",
+      "typoNo": 3,
+      "colors": {
+        "primary": "#f59e0b",
+        "secondary": "#ec4899",
+        "accent": "#06b6d4",
+        "bg": "#0f172a",
+        "card": "#1e293b",
+        "fg": "#f1f5f9"
+      },
+      "screens": [
+        [
+          "01_今夜即興樂手陣容",
+          "artExhibition"
+        ],
+        [
+          "02_黑膠與特調酒單",
+          "artCatalog"
+        ],
+        [
+          "03_Live 席位線上預訂",
+          "checkout"
+        ]
+      ],
+      "brand": "BLUE NOTE 深夜爵士吧",
+      "items": [
+        "小號四重奏即興搖擺之夜",
+        "單一麥芽威士忌桶陳特調",
+        "台前搖滾區卡座每晚限額",
+        "黑膠唱片現場盲聽點播"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-music-vinyl",
+      "cat": "音樂表演",
+      "name": "📼 類比黑膠唱片選品店 (Analog Vinyl Vault)",
+      "sub": "真空管音響試聽 × 稀有壓片指南 × 試聽預約 (3頁)",
+      "styleId": "sound-studio",
+      "mode": "dark",
+      "typoNo": 5,
+      "colors": {
+        "primary": "#f59e0b",
+        "secondary": "#10b981",
+        "accent": "#38bdf8",
+        "bg": "#18181b",
+        "card": "#27272a",
+        "fg": "#f4f4f5"
+      },
+      "screens": [
+        [
+          "01_頭版稀有黑膠專題",
+          "artExhibition"
+        ],
+        [
+          "02_唱針轉速與保養手冊",
+          "artCatalog"
+        ],
+        [
+          "03_專業試聽室時段預約",
+          "checkout"
+        ]
+      ],
+      "brand": "ANALOGUE 類比黑膠庫",
+      "items": [
+        "1960 年代頭版爵士壓片",
+        "MC 動圈唱頭與唱放搭配指南",
+        "真空管擴大機溫潤音色體驗",
+        "超音波唱片清洗保養服務"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-music-dance",
+      "cat": "音樂表演",
+      "name": "🩰 當代實驗現代舞團 (Dance Theatre)",
+      "sub": "肢體張力劇照 × 舞作觀念闡述 × 巡迴票務 (3頁)",
+      "styleId": "kinetic-typography",
+      "mode": "dark",
+      "typoNo": 3,
+      "colors": {
+        "primary": "#facc15",
+        "secondary": "#ffffff",
+        "accent": "#ef4444",
+        "bg": "#0a0a0a",
+        "card": "#171717",
+        "fg": "#ffffff"
+      },
+      "screens": [
+        [
+          "01_年度舞作觀念闡述",
+          "editorial"
+        ],
+        [
+          "02_舞者肢體影像紀錄",
+          "artCatalog"
+        ],
+        [
+          "03_巡演場次與票務預訂",
+          "checkout"
+        ]
+      ],
+      "brand": "KINETIC 現代舞團",
+      "items": [
+        "重力與失重：雙人編舞實驗",
+        "鋼琴極簡樂句與足尖摩擦聲",
+        "全台巡迴演後演職員對談",
+        "青年學生藝術推廣優惠席"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-music-chamber",
+      "cat": "音樂表演",
+      "name": "🎹 獨立古典室內樂節 (Chamber Music)",
+      "sub": "古堡音樂會 × 大提琴無伴奏 × 貴賓套票 (3頁)",
+      "styleId": "minimalist-luxury",
+      "mode": "light",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#18181b",
+        "secondary": "#3f3f46",
+        "accent": "#b45309",
+        "bg": "#ffffff",
+        "card": "#f5f5f4",
+        "fg": "#18181b"
+      },
+      "screens": [
+        [
+          "01_古堡音樂節特刊",
+          "editorial"
+        ],
+        [
+          "02_大提琴組曲樂譜手稿",
+          "artCatalog"
+        ],
+        [
+          "03_貴賓席位套票預約",
+          "checkout"
+        ]
+      ],
+      "brand": "CHAMBER FESTIVAL 樂祭",
+      "items": [
+        "巴哈無伴奏大提琴組曲全本",
+        "石造禮拜堂自然殘響錄音",
+        "音樂家手稿初版研究對照",
+        "貴賓香檳迎賓酒會邀請函"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-music-ambient",
+      "cat": "音樂表演",
+      "name": "🎛️ 環境氛圍音樂實驗室 (Ambient Sound)",
+      "sub": "白噪音採集 × 432Hz 療癒頻率 × 專注空間 (3頁)",
+      "styleId": "spatial-audio",
+      "mode": "dark",
+      "typoNo": 3,
+      "colors": {
+        "primary": "#8b5cf6",
+        "secondary": "#c084fc",
+        "accent": "#ec4899",
+        "bg": "#0f0f1a",
+        "card": "#1e1b4b",
+        "fg": "#f1f5f9"
+      },
+      "screens": [
+        [
+          "01_自然聲景採集日記",
+          "artExhibition"
+        ],
+        [
+          "02_療癒頻率試聽目錄",
+          "artCatalog"
+        ],
+        [
+          "03_白噪音睡眠模組訂閱",
+          "checkout"
+        ]
+      ],
+      "brand": "AURA SOUND 氛圍實驗",
+      "items": [
+        "高山晨霧雨滴採集無損音訊",
+        "432Hz 腦波放鬆波形振盪器",
+        "雙耳節拍深沉專注工作流",
+        "離線高音質冥想專輯下載"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-music-avantgarde",
+      "cat": "音樂表演",
+      "name": "🎭 先鋒前衛實驗劇場 (Avant-Garde Theatre)",
+      "sub": "黑盒子沈浸式 × 演員無聲獨白 × 工作坊 (3頁)",
+      "styleId": "monochrome-editorial",
+      "mode": "light",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#000000",
+        "secondary": "#27272a",
+        "accent": "#52525b",
+        "bg": "#f4f4f5",
+        "card": "#ffffff",
+        "fg": "#000000"
+      },
+      "screens": [
+        [
+          "01_黑盒子沈浸式戲劇",
+          "artExhibition"
+        ],
+        [
+          "02_演員無聲獨白手稿",
+          "artCatalog"
+        ],
+        [
+          "03_實驗工作坊席次報名",
+          "checkout"
+        ]
+      ],
+      "brand": "BLACKBOX 實驗劇場",
+      "items": [
+        "打破第四面牆沉浸感官展演",
+        "無道具即興肢體肢解生活常態",
+        "每場限定 50 位觀眾近身參與",
+        "導演與編劇劇後交流沙龍"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-tea-chado",
+      "cat": "茶咖生活",
+      "name": "🍵 日本茶道與裏千家美學 (Chado Ceremony)",
+      "sub": "一期一會茶席 × 名家茶碗鑑賞 × 儀軌研習 (3頁)",
+      "styleId": "wabi-sabi-zen",
+      "mode": "light",
+      "typoNo": 4,
+      "colors": {
+        "primary": "#3f6212",
+        "secondary": "#65a30d",
+        "accent": "#a16207",
+        "bg": "#f7fee7",
+        "card": "#ffffff",
+        "fg": "#1a2e05"
+      },
+      "screens": [
+        [
+          "01_一期一會茶席專題",
+          "artExhibition"
+        ],
+        [
+          "02_名物茶杓茶入鑑賞",
+          "artCatalog"
+        ],
+        [
+          "03_茶道儀軌研習席位",
+          "checkout"
+        ]
+      ],
+      "brand": "無事庵 CHADO 禪茶席",
+      "items": [
+        "宇治百年老舖一番茶抹茶",
+        "黑樂茶碗溫潤手感與落灰",
+        "水指柄杓動作靜謐儀軌",
+        "初學者茶道禮儀工作坊"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-food-coffee",
+      "cat": "茶咖生活",
+      "name": "☕ 極致精品手沖咖啡誌 (Coffee Specialty)",
+      "sub": "產區海拔風味輪 × 手沖萃取曲線 × 豆單配送 (3頁)",
+      "styleId": "artisanal-coffee",
+      "mode": "light",
+      "typoNo": 4,
+      "colors": {
+        "primary": "#78350f",
+        "secondary": "#92400e",
+        "accent": "#d97706",
+        "bg": "#fffbeb",
+        "card": "#ffffff",
+        "fg": "#451a03"
+      },
+      "screens": [
+        [
+          "01_莊園咖啡豆單專題",
+          "artExhibition"
+        ],
+        [
+          "02_水溫粉水萃取手記",
+          "artCatalog"
+        ],
+        [
+          "03_當季現烘豆每月配送",
+          "checkout"
+        ]
+      ],
+      "brand": "DRIP LAB 手沖咖啡研所",
+      "items": [
+        "衣索比亞耶加雪菲水洗 G1",
+        "茉莉花香與柑橘明亮酸質",
+        "V60 濾杯三段注水時間表",
+        "每週現烘新鮮咖啡豆直送"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-food-winery",
+      "cat": "茶咖生活",
+      "name": "🍷 自然農法風土酒莊 (Biodynamic Winery)",
+      "sub": "老藤野生發酵 × 生物動力曆採收 × 地下酒窖 (3頁)",
+      "styleId": "fine-dining",
+      "mode": "dark",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#d97706",
+        "secondary": "#b45309",
+        "accent": "#881337",
+        "bg": "#120d0a",
+        "card": "#1c1510",
+        "fg": "#fef3c7"
+      },
+      "screens": [
+        [
+          "01_老藤原生自然酒展售",
+          "editorial"
+        ],
+        [
+          "02_生物動力曆採收手冊",
+          "artCatalog"
+        ],
+        [
+          "03_私人地下酒窖品酒席",
+          "checkout"
+        ]
+      ],
+      "brand": "TERROIR 自然農法酒莊",
+      "items": [
+        "無二氧化硫添加原生酵母發酵",
+        "月亮運行週期果實採摘紀錄",
+        "未過濾橘酒浸皮 60 天熟成",
+        "酒莊主人親自導覽品鑑會"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-food-bakery",
+      "cat": "茶咖生活",
+      "name": "🍞 野生酸種酵母烘焙坊 (Artisan Sourdough)",
+      "sub": "石磨古老小麥 × 36小時低溫發酵 × 晨間出爐 (3頁)",
+      "styleId": "craft-ceramic",
+      "mode": "light",
+      "typoNo": 4,
+      "colors": {
+        "primary": "#9a3412",
+        "secondary": "#c2410c",
+        "accent": "#ea580c",
+        "bg": "#fff7ed",
+        "card": "#ffedd5",
+        "fg": "#431407"
+      },
+      "screens": [
+        [
+          "01_低溫發酵日記特刊",
+          "artExhibition"
+        ],
+        [
+          "02_石磨古麥粉風味圖譜",
+          "artCatalog"
+        ],
+        [
+          "03_晨間新鮮出爐預定",
+          "checkout"
+        ]
+      ],
+      "brand": "LEVIST 酵研烘焙坊",
+      "items": [
+        "魯邦老麵種野生酵母培養",
+        "法國傳統石臼磨坊全麥粉",
+        "厚脆焦香外皮與大氣孔蜂巢",
+        "每日晨間 8:30 限量出爐"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-food-herbal",
+      "cat": "茶咖生活",
+      "name": "🌿 草本植物芳療與漢方 (Botanical Living)",
+      "sub": "節氣精油蒸餾 × 漢方草本調配 × 身心靈諮詢 (3頁)",
+      "styleId": "wellness-spa",
+      "mode": "light",
+      "typoNo": 4,
+      "colors": {
+        "primary": "#be185d",
+        "secondary": "#9d174d",
+        "accent": "#15803d",
+        "bg": "#fdf2f8",
+        "card": "#ffffff",
+        "fg": "#831843"
+      },
+      "screens": [
+        [
+          "01_節氣草本沐浴調配",
+          "artExhibition"
+        ],
+        [
+          "02_高山純露蒸餾紀錄",
+          "artCatalog"
+        ],
+        [
+          "03_身心靈芳療客製預約",
+          "checkout"
+        ]
+      ],
+      "brand": "草木芳研 BOTANIC SPA",
+      "items": [
+        "立冬節氣溫潤暖身艾草精油",
+        "銅鍋小量蒸餾台灣檜木純露",
+        "中醫師調配草本漢方養生茶",
+        "芳療師一對一身心量身評估"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-food-sake",
+      "cat": "茶咖生活",
+      "name": "🍶 地酒手工清酒釀造所 (Artisanal Sake)",
+      "sub": "精米步合純米大吟釀 × 藏人造酒日記 × 預購 (3頁)",
+      "styleId": "nordic-furniture",
+      "mode": "light",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#1e3a8a",
+        "secondary": "#1e40af",
+        "accent": "#b45309",
+        "bg": "#ffffff",
+        "card": "#f8fafc",
+        "fg": "#0f172a"
+      },
+      "screens": [
+        [
+          "01_生酛純米大吟釀專題",
+          "artExhibition"
+        ],
+        [
+          "02_酒造杜氏釀造手記",
+          "artCatalog"
+        ],
+        [
+          "03_冬季限量初榨酒預購",
+          "checkout"
+        ]
+      ],
+      "brand": "雪水酒造 SAKE BREW",
+      "items": [
+        "阿爾卑斯伏流水與山田錦",
+        "純手工木桶洗米與麴菌培育",
+        "低溫長期發酵澄澈哈密瓜果香",
+        "原酒生酒限量冷藏宅配"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-food-kaiseki",
+      "cat": "茶咖生活",
+      "name": "🍱 四季懷石料理美學 (Kaiseki Gastronomy)",
+      "sub": "旬之味時令食材 × 漆器陶器對稱 × 板前預約 (3頁)",
+      "styleId": "fine-dining",
+      "mode": "dark",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#ca8a04",
+        "secondary": "#a16207",
+        "accent": "#dc2626",
+        "bg": "#18181b",
+        "card": "#27272a",
+        "fg": "#fef08a"
+      },
+      "screens": [
+        [
+          "01_神無月旬之味菜單",
+          "editorial"
+        ],
+        [
+          "02_陶器與料理色彩對話",
+          "artCatalog"
+        ],
+        [
+          "03_板前料理長席位預約",
+          "checkout"
+        ]
+      ],
+      "brand": "旬影懷石 KAISEKI",
+      "items": [
+        "先付、八寸與椀物時令層次",
+        "輪島塗沉金漆器餐具陳設",
+        "北海道野生海膽與本鮪刺身",
+        "一晚僅接六席隱密包廂席"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-food-apiary",
+      "cat": "茶咖生活",
+      "name": "🍯 在地高山野蜜養蜂實錄 (Wild Apiary)",
+      "sub": "原生蜜源圖鑑 × 封蓋成熟蜜 × 品鑑組預約 (3頁)",
+      "styleId": "sustainable-green",
+      "mode": "light",
+      "typoNo": 3,
+      "colors": {
+        "primary": "#ca8a04",
+        "secondary": "#15803d",
+        "accent": "#84cc16",
+        "bg": "#fefce8",
+        "card": "#ffffff",
+        "fg": "#713f12"
+      },
+      "screens": [
+        [
+          "01_百花原生蜜源圖鑑",
+          "artExhibition"
+        ],
+        [
+          "02_生態養蜂與自然共生",
+          "artCatalog"
+        ],
+        [
+          "03_當季生蜂蜜品鑑瓶訂購",
+          "checkout"
+        ]
+      ],
+      "brand": "野境山蜜 APIARY",
+      "items": [
+        "台灣野生土蜂天然蜂巢原蜜",
+        "低溫物理離心保留天然活性酶",
+        "深山烏桕樹與紅淡比花香氣",
+        "產銷履歷無抗生素檢驗合格"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-craft-indigo",
+      "cat": "職人工藝",
+      "name": "🧵 手工植物染織工坊 (Natural Indigo Dye)",
+      "sub": "藍染發酵缸 × 天然棉麻經緯織紋 × 一日體驗 (3頁)",
+      "styleId": "nordic-furniture",
+      "mode": "light",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#1e3a8a",
+        "secondary": "#2563eb",
+        "accent": "#d97706",
+        "bg": "#f8fafc",
+        "card": "#ffffff",
+        "fg": "#0f172a"
+      },
+      "screens": [
+        [
+          "01_馬藍植物發酵日記",
+          "artExhibition"
+        ],
+        [
+          "02_經緯交織布樣圖錄",
+          "artCatalog"
+        ],
+        [
+          "03_手作植物染體驗報名",
+          "checkout"
+        ]
+      ],
+      "brand": "青出染織 INDIGO LAB",
+      "items": [
+        "台灣山藍植物手工沉澱藍泥",
+        "木灰水鹼性還原發酵技術",
+        "手捻棉線老式木梭機平織",
+        "週末手作絞染圍巾體驗課"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-craft-leather",
+      "cat": "職人工藝",
+      "name": "👞 手工訂製皮革靴鞋 (Bespoke Leather)",
+      "sub": "義大利植鞣牛皮 × 固特異沿條縫法 × 量腳打版 (3頁)",
+      "styleId": "artisanal-coffee",
+      "mode": "light",
+      "typoNo": 4,
+      "colors": {
+        "primary": "#78350f",
+        "secondary": "#92400e",
+        "accent": "#d97706",
+        "bg": "#fffbeb",
+        "card": "#ffffff",
+        "fg": "#451a03"
+      },
+      "screens": [
+        [
+          "01_固特異手工縫法解說",
+          "editorial"
+        ],
+        [
+          "02_雙腳個人化木楦打版",
+          "artCatalog"
+        ],
+        [
+          "03_師傅專屬量腳預約",
+          "checkout"
+        ]
+      ],
+      "brand": "CORDWAINER 皮革匠室",
+      "items": [
+        "托斯卡尼天然植鞣馬臀皮",
+        "全手工手縫沿條與軟木中底",
+        "依據雙腳足弓個別削製木楦",
+        "終身保固換底保養服務"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-photo-darkroom",
+      "cat": "職人工藝",
+      "name": "📷 銀鹽黑白暗房攝影志 (Darkroom Journal)",
+      "sub": "底片感光乳劑 × 放大機曝光手記 × 原作認購 (3頁)",
+      "styleId": "monochrome-editorial",
+      "mode": "light",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#18181b",
+        "secondary": "#27272a",
+        "accent": "#991b1b",
+        "bg": "#fafaf9",
+        "card": "#ffffff",
+        "fg": "#18181b"
+      },
+      "screens": [
+        [
+          "01_大片幅銀鹽攝影專題",
+          "artExhibition"
+        ],
+        [
+          "02_顯影液配方與曝光表",
+          "artCatalog"
+        ],
+        [
+          "03_收藏級黑白原作認購",
+          "checkout"
+        ]
+      ],
+      "brand": "SILVER GELATIN 暗房所",
+      "items": [
+        "4x5 大片幅黑白底片細膩灰階",
+        "無酸鋇地相紙傳統暗房放大",
+        "硒調色耐久典藏保存工序",
+        "攝影師親筆簽名限量原作"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-craft-ikebana",
+      "cat": "職人工藝",
+      "name": "💐 野花侘寂花藝美學 (Wabi-Sabi Ikebana)",
+      "sub": "四季枯枝留白哲學 × 陶器瓶花 × 節氣沙龍 (3頁)",
+      "styleId": "wabi-sabi-zen",
+      "mode": "light",
+      "typoNo": 4,
+      "colors": {
+        "primary": "#44403c",
+        "secondary": "#78716c",
+        "accent": "#f472b6",
+        "bg": "#fafaf9",
+        "card": "#ffffff",
+        "fg": "#292524"
+      },
+      "screens": [
+        [
+          "01_四季殘花枯枝哲學",
+          "artExhibition"
+        ],
+        [
+          "02_古董銅器與瓶花搭配",
+          "artCatalog"
+        ],
+        [
+          "03_節氣花藝沙龍報名",
+          "checkout"
+        ]
+      ],
+      "brand": "花鏡 IKEBANA 草木誌",
+      "items": [
+        "春櫻、夏荷、秋菊、冬梅自然姿態",
+        "枯葉殘枝中的生命枯榮詩意",
+        "日本備前燒古花入器皿搭配",
+        "小班制節氣插花美學課程"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-craft-jewelry",
+      "cat": "職人工藝",
+      "name": "💍 當代極簡金工首飾 (Fine Jewelry Atelier)",
+      "sub": "原石幾何切面 × 手敲金屬質地 × 婚戒對談 (3頁)",
+      "styleId": "minimalist-luxury",
+      "mode": "light",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#18181b",
+        "secondary": "#3f3f46",
+        "accent": "#ca8a04",
+        "bg": "#f5f5f4",
+        "card": "#ffffff",
+        "fg": "#18181b"
+      },
+      "screens": [
+        [
+          "01_幾何原石戒指系列",
+          "artExhibition"
+        ],
+        [
+          "02_手敲金屬質地工法",
+          "artCatalog"
+        ],
+        [
+          "03_客製化婚戒對談預約",
+          "checkout"
+        ]
+      ],
+      "brand": "AURELIA 極簡金工所",
+      "items": [
+        "18K 霧面微溫回收金手工鍛敲",
+        "未經高溫處理天然原石切角",
+        "極簡非對稱線條佩戴舒適感",
+        "專屬誓言雷射微雕刻服務"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-craft-eyewear",
+      "cat": "職人工藝",
+      "name": "🕶️ 手作板料眼鏡工房 (Bespoke Eyewear)",
+      "sub": "日系賽璐珞打磨 × 七枚蝶番鉸鏈 × 面型適配 (3頁)",
+      "styleId": "craft-ceramic",
+      "mode": "light",
+      "typoNo": 3,
+      "colors": {
+        "primary": "#9a3412",
+        "secondary": "#18181b",
+        "accent": "#ea580c",
+        "bg": "#fff7ed",
+        "card": "#ffedd5",
+        "fg": "#431407"
+      },
+      "screens": [
+        [
+          "01_七枚蝶番鉸鏈工藝",
+          "editorial"
+        ],
+        [
+          "02_手工削切拋光圖解",
+          "artCatalog"
+        ],
+        [
+          "03_面型量測與試戴預約",
+          "checkout"
+        ]
+      ],
+      "brand": "OPTICAL 鯖江眼鏡職人",
+      "items": [
+        "陳年五年乾燥賽璐珞老板料",
+        "福井鯖江老匠人手工拋光出光澤",
+        "純鈦芯金屬內嵌抗過敏鼻托",
+        "根據亞洲人臉型微調傾斜角度"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-craft-hanfu",
+      "cat": "職人工藝",
+      "name": "👘 當代新中式衣著選集 (Contemporary Silk)",
+      "sub": "桑蠶絲流動剪裁 × 非對稱立領 × 高訂量身 (3頁)",
+      "styleId": "wellness-spa",
+      "mode": "light",
+      "typoNo": 4,
+      "colors": {
+        "primary": "#be185d",
+        "secondary": "#065f46",
+        "accent": "#ca8a04",
+        "bg": "#fdf2f8",
+        "card": "#ffffff",
+        "fg": "#831843"
+      },
+      "screens": [
+        [
+          "01_現代立領剪裁特輯",
+          "artExhibition"
+        ],
+        [
+          "02_手工盤扣與天然絲織",
+          "artCatalog"
+        ],
+        [
+          "03_高級訂製量身預約",
+          "checkout"
+        ]
+      ],
+      "brand": "素衣 SILK & LINEN",
+      "items": [
+        "重磅真絲雙縐與天然莨綢",
+        "非對稱斜襟與手工一字盤扣",
+        "打破古裝框架融入當代日常日常穿搭",
+        "私人工作室一對一打版試衣"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-craft-candle",
+      "cat": "職人工藝",
+      "name": "🕯️ 手工大豆香氛蠟燭 (Botanical Candle)",
+      "sub": "冷杉木質調調香 × 木質芯辟啪燃燒 × 禮盒 (3頁)",
+      "styleId": "nordic-furniture",
+      "mode": "light",
+      "typoNo": 1,
+      "colors": {
+        "primary": "#292524",
+        "secondary": "#57534e",
+        "accent": "#d97706",
+        "bg": "#fcfbf9",
+        "card": "#ffffff",
+        "fg": "#1c1917"
+      },
+      "screens": [
+        [
+          "01_雨後雪松香調特輯",
+          "artExhibition"
+        ],
+        [
+          "02_天然低溫大豆蠟工藝",
+          "artCatalog"
+        ],
+        [
+          "03_手工香氛禮盒選購",
+          "checkout"
+        ]
+      ],
+      "brand": "LUMEN BOTANICA 香研",
+      "items": [
+        "天然大豆蠟與蜂蠟黃金比例",
+        "天然未漂白木質十字燃燒芯",
+        "黑胡椒、煙燻雪松與乳香調配",
+        "琥珀玻璃罐手工注蠟限量批次"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-studio-avant",
+      "cat": "設計策展",
+      "name": "✦ 當代先鋒設計工作室 (Avant Bureau)",
+      "sub": "跨媒介品牌識別 × 跑馬燈走馬條 × 提案對談 (3頁)",
+      "styleId": "contemporary-agency",
+      "mode": "light",
+      "typoNo": 3,
+      "colors": {
+        "primary": "#000000",
+        "secondary": "#404040",
+        "accent": "#f59e0b",
+        "bg": "#f5f5f4",
+        "card": "#ffffff",
+        "fg": "#171717"
+      },
+      "screens": [
+        [
+          "01_當代品牌重塑識別",
+          "studio"
+        ],
+        [
+          "02_動態雙年展走馬燈",
+          "artCatalog"
+        ],
+        [
+          "03_專案委任提案對談",
+          "checkout"
+        ]
+      ],
+      "brand": "AVANT STUDIO 先鋒設計",
+      "items": [
+        "國際藝術節識別系統整體規劃",
+        "字體驅動型動態數位海報",
+        "跨領域策展動線與展牆設計",
+        "2027 年度大型委任評估"
+      ],
+      "dev": "1280x800"
+    },
+    {
+      "id": "c-studio-kinetic",
+      "cat": "設計策展",
+      "name": "🔤 動態字體與視覺詩實驗 (Kinetic Poetry)",
+      "sub": "文字形變互動 × 聲波驅動字元 × 數位典藏 (3頁)",
+      "styleId": "kinetic-typography",
+      "mode": "dark",
+      "typoNo": 3,
+      "colors": {
+        "primary": "#facc15",
+        "secondary": "#ffffff",
+        "accent": "#ef4444",
+        "bg": "#0a0a0a",
+        "card": "#171717",
+        "fg": "#ffffff"
+      },
+      "screens": [
+        [
+          "01_字體拉伸互動展示",
+          "editorial"
+        ],
+        [
+          "02_聲波驅動字元實驗",
+          "artCatalog"
+        ],
+        [
+          "03_數位海報收藏購買",
+          "checkout"
+        ]
+      ],
+      "brand": "KINETIC TYPE 實驗室",
+      "items": [
+        "Variable Font 軸向變形互動",
+        "麥克風即時收音觸發筆畫震盪",
+        "高對比黑底黃字視覺衝擊",
+        "限量數位簽名版海報釋出"
+      ],
+      "dev": "440x880"
+    },
+    {
+      "id": "c-heritage-archive",
+      "cat": "設計策展",
+      "name": "🌐 當代文化資產數位典藏 (Heritage Archive)",
+      "sub": "古蹟 3D 點雲修復 × 聲音地圖 × 文獻下載 (3頁)",
+      "styleId": "biotech-clean",
+      "mode": "light",
+      "typoNo": 5,
+      "colors": {
+        "primary": "#0891b2",
+        "secondary": "#0e7490",
+        "accent": "#10b981",
+        "bg": "#f8fafc",
+        "card": "#ffffff",
+        "fg": "#0f172a"
+      },
+      "screens": [
+        [
+          "01_國寶古蹟3D點雲修復",
+          "editorial"
+        ],
+        [
+          "02_無形文化聲音地圖",
+          "artCatalog"
+        ],
+        [
+          "03_研究文獻開放下載",
+          "checkout"
+        ]
+      ],
+      "brand": "HERITAGE 數位典藏庫",
+      "items": [
+        "國定古蹟光達毫米級三維掃描",
+        "傳統民俗祭儀高傳真立體錄音",
+        "口述歷史老匠人影像紀錄",
+        "開放近用學術文獻授權下載"
+      ],
+      "dev": "1280x800"
+    }
+  ]
+}
